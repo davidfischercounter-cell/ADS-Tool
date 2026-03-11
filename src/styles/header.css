@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+}
+
+.header-inner {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 0 var(--content-padding);
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header-logo {
+  height: 60px;
+}
+
+.header-search {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bbq-button {
+  padding: 8px 14px;
+  border: 2px solid #b89b6d;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.bbq-button:hover {
+  background: #b89b6d;
+  color: white;
+}
