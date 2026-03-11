@@ -1,0 +1,76 @@
+:root {
+  --content-width: 1100px;
+  --content-padding: 20px;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.request-form {
+  max-width: 700px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.request-input,
+.request-textarea,
+.request-select {
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.request-input:focus,
+.request-textarea:focus,
+.request-select:focus {
+  outline: none;
+  border: 2px solid #b7a37a;
+}
+
+.request-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.request-button {
+  align-self: center;
+  padding: 14px 30px;
+  border-radius: 14px;
+  border: 2px solid #b7a37a;
+  background: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.request-button:hover {
+  background: #f5f3ee;
+  transform: translateY(-1px);
+}
+
+.header-inner {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 0 20px;
+}
+
+.bbq-container {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 20px;
+}
+
+.page {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: var(--content-padding);
+  box-sizing: border-box;
+}

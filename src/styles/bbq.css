@@ -1,0 +1,171 @@
+.bbq-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+/* Titel */
+
+.bbq-title {
+  background: #ece8df;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 14px;
+  margin-top: 20px;
+  border-top: 4px solid #b89b6d;
+  border-bottom: 4px solid #b89b6d;
+}
+
+/* Ergebnis */
+
+.bbq-result-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-top: 4px solid #b89b6d;
+  border-bottom: 4px solid #b89b6d;
+  background: #f7f6f3;
+}
+
+.bbq-result-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.bbq-result-value {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* Scrollbereich */
+
+.bbq-table-wrapper {
+  width: 100%;
+  max-height: 600px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+/* Tabelle */
+
+.bbq-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* Kopf */
+
+.bbq-table th {
+  background: #f5f5f5;
+  border-bottom: 3px solid #b89b6d;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/* Zellen */
+
+.bbq-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: top;
+}
+
+/* Hover */
+
+.bbq-table tr:hover {
+  background: #faf8f3;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+/* aktiv */
+
+.bbq-table tr.active {
+  background: #f3ede2;
+  border-left: 4px solid #b89b6d;
+}
+
+/* Kategorien */
+
+.bbq-group {
+  background: #ece8df;
+  font-weight: 600;
+  cursor: pointer;
+  border-top: 2px solid #b89b6d;
+}
+
+.bbq-group td {
+  padding: 12px;
+}
+
+/* Fußnoten */
+
+.bbq-note {
+  background: #f7f6f3;
+  font-size: 14px;
+  color: #555;
+}
+
+.bbq-note td {
+  padding: 14px;
+  border-top: 1px solid #ddd;
+}
+
+/* Spalten */
+
+.bbq-table th:nth-child(1),
+.bbq-table td:nth-child(1) {
+  width: 50px;
+  text-align: center;
+}
+
+.bbq-table th:nth-child(3),
+.bbq-table th:nth-child(4),
+.bbq-table th:nth-child(5),
+.bbq-table th:nth-child(6),
+.bbq-table td:nth-child(3),
+.bbq-table td:nth-child(4),
+.bbq-table td:nth-child(5),
+.bbq-table td:nth-child(6) {
+  width: 30px;
+  text-align: center;
+}
+
+/* Anwendung */
+
+.bbq-table td:nth-child(2) {
+  line-height: 1.4;
+}
+
+.bbq-report-button {
+  margin-top: 20px;
+  padding: 16px;
+  border: 2px solid #b89b6d;
+  border-radius: 10px;
+  background: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.bbq-report-button:hover {
+  background: #b89b6d;
+  color: white;
+}
+
+.bbq-report-button.full {
+  width: 100%;
+  display: block;
+}
