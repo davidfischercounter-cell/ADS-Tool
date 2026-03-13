@@ -74,3 +74,22 @@
   padding: var(--content-padding);
   box-sizing: border-box;
 }
+
+/* Mobile Header anpassen */
+@media (max-width: 768px) {
+  .header-inner {
+    padding: 0 14px;
+  }
+
+  .logo img,
+  .header-logo img {
+    max-height: 38px;
+    width: auto;
+  }
+
+  .bbq-button {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 10px;
+  }
+}
