@@ -48,6 +48,7 @@
   background: #b89b6d;
   color: white;
 }
+<<<<<<< HEAD
 
 /* Smartphone */
 @media (max-width: 768px) {
@@ -99,3 +100,5 @@
     font-size: 14px;
   }
 }
+=======
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01

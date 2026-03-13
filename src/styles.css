@@ -74,6 +74,7 @@
   padding: var(--content-padding);
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 /* Mobile Header anpassen */
 @media (max-width: 768px) {
@@ -93,3 +94,5 @@
     border-radius: 10px;
   }
 }
+=======
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01

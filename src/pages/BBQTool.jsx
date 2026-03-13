@@ -21,8 +21,6 @@ export default function BBQTool() {
     3: "E",
   };
 
-  /* CSV laden */
-
   useEffect(() => {
     fetch("/bbq_table.csv", { cache: "no-store" })
       .then((res) => res.text())
@@ -37,15 +35,11 @@ export default function BBQTool() {
       });
   }, []);
 
-  /* Zeile auswählen */
-
   function toggle(index) {
     setSelected((prev) =>
       prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
     );
   }
-
-  /* Gruppe öffnen / schließen */
 
   function toggleGroup(name) {
     setOpenGroups((prev) => ({
@@ -53,8 +47,6 @@ export default function BBQTool() {
       [name]: prev[name] === false ? true : false,
     }));
   }
-
-  /* BBQ Klasse berechnen */
 
   const bbqResult = useMemo(() => {
     let result = 0;
@@ -69,8 +61,6 @@ export default function BBQTool() {
 
     return result;
   }, [selected, rows]);
-
-  /* PK BK AK berechnen */
 
   const { pkValue, bkValue, akValue } = useMemo(() => {
     let pk = 0;
@@ -106,7 +96,9 @@ export default function BBQTool() {
       </div>
 
       <div className="bbq-table-wrapper">
-        <table className="bbq-table">
+        {/* Desktop Tabelle */}
+
+        <table className="bbq-table desktop-table">
           <thead>
             <tr>
               <th>BBQ-Phase</th>
@@ -123,8 +115,6 @@ export default function BBQTool() {
               let currentGroup = "";
 
               return rows.map((row, i) => {
-                /* Kategorie */
-
                 if (!row[0] && row[2] && row[2].length > 10) {
                   if (row[2].includes("Ermittelte BBQ-Klasse")) return null;
 
@@ -145,8 +135,6 @@ export default function BBQTool() {
                   );
                 }
 
-                /* Fußnoten */
-
                 if (row[0] === "a" || row[0] === "b" || row[0] === "c") {
                   return (
                     <tr key={i} className="bbq-note">
@@ -157,15 +145,9 @@ export default function BBQTool() {
                   );
                 }
 
-                /* keine Zahl */
-
                 if (isNaN(parseInt(row[0]))) return null;
 
-                /* Gruppe geschlossen */
-
                 if (openGroups[currentGroup] === false) return null;
-
-                /* normale Tabellenzeile */
 
                 return (
                   <tr
@@ -185,6 +167,34 @@ export default function BBQTool() {
             })()}
           </tbody>
         </table>
+
+        {/* Mobile Karten */}
+
+        <div className="bbq-mobile-list">
+          {rows.map((row, i) => {
+            if (isNaN(parseInt(row[0]))) return null;
+
+            return (
+              <div
+                key={i}
+                className={`bbq-card ${selected.includes(i) ? "active" : ""}`}
+                onClick={() => toggle(i)}
+              >
+                <div className="bbq-card-phase">Phase {row[1]}</div>
+
+                <div className="bbq-card-text">{row[2]}</div>
+
+                <div className="bbq-card-values">
+                  <span>PK {row[3]}</span>
+                  <span>BK {row[4]}</span>
+                  <span>AK {row[5]}</span>
+
+                  <span className="bbq-card-result">BBQ {row[6]}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       {selected.length > 0 && (

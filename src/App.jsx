@@ -1,30 +1,30 @@
 import { Routes, Route } from "react-router-dom";
 
-import Layout from "./components/Layout";
+import Layout from "./components/Layout.jsx";
 import "./styles.css";
-import BBQTool from "./pages/BBQTool";
-import BBQReport from "./pages/BBQReport";
 
-import Home from "./pages/Home";
-import Revit from "./pages/Revit";
-import Solutions from "./pages/Solutions";
-import Requests from "./pages/Requests";
-import Clouds from "./pages/Clouds";
+import BBQTool from "./pages/BBQTool.jsx";
+import BBQReport from "./pages/BBQReport.jsx";
 
-import RevitModellierung from "./pages/RevitModellierung";
-import RevitFamilien from "./pages/RevitFamilien";
-import RevitImport from "./pages/RevitImport";
-import RevitZusammenarbeit from "./pages/RevitZusammenarbeit";
-import RevitDarstellung from "./pages/RevitDarstellung";
+import Home from "./pages/Home.jsx";
+import Revit from "./pages/Revit.jsx";
+import Solutions from "./pages/Solutions.jsx";
+import Requests from "./pages/Requests.jsx";
+import Clouds from "./pages/Clouds.jsx";
 
-import GuidePage from "./pages/GuidePage";
-import SearchResults from "./pages/SearchResults";
+import RevitModellierung from "./pages/RevitModellierung.jsx";
+import RevitFamilien from "./pages/RevitFamilien.jsx";
+import RevitImport from "./pages/RevitImport.jsx";
+import RevitZusammenarbeit from "./pages/RevitZusammenarbeit.jsx";
+import RevitDarstellung from "./pages/RevitDarstellung.jsx";
+
+import GuidePage from "./pages/GuidePage.jsx";
+import SearchResults from "./pages/SearchResults.jsx";
 
 function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        {/* Hauptseiten */}
         <Route path="/" element={<Home />} />
         <Route path="/revit" element={<Revit />} />
         <Route path="/solutions" element={<Solutions />} />
@@ -33,7 +33,6 @@ function App() {
         <Route path="/bbq" element={<BBQTool />} />
         <Route path="/bbq-report" element={<BBQReport />} />
 
-        {/* Revit Unterseiten */}
         <Route path="/revit/modellierung" element={<RevitModellierung />} />
         <Route path="/revit/familien" element={<RevitFamilien />} />
         <Route path="/revit/import" element={<RevitImport />} />

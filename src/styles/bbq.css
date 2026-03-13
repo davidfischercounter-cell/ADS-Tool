@@ -48,6 +48,10 @@
   width: 100%;
   max-height: 600px;
   overflow-y: auto;
+<<<<<<< HEAD
+=======
+  overflow-x: auto; /* wichtig für Smartphones */
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
   margin-top: 20px;
 }
 
@@ -55,6 +59,10 @@
 
 .bbq-table {
   width: 100%;
+<<<<<<< HEAD
+=======
+  min-width: 650px; /* verhindert Layoutbruch */
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -138,7 +146,11 @@
 .bbq-table td:nth-child(4),
 .bbq-table td:nth-child(5),
 .bbq-table td:nth-child(6) {
+<<<<<<< HEAD
   width: 30px;
+=======
+  width: 40px;
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
   text-align: center;
 }
 
@@ -148,6 +160,11 @@
   line-height: 1.4;
 }
 
+<<<<<<< HEAD
+=======
+/* Button */
+
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
 .bbq-report-button {
   margin-top: 20px;
   padding: 16px;
@@ -169,3 +186,85 @@
   width: 100%;
   display: block;
 }
+<<<<<<< HEAD
+=======
+
+/* ------------------ MOBILE ------------------ */
+
+@media (max-width: 768px) {
+  .bbq-container {
+    padding: 14px;
+  }
+
+  .bbq-title {
+    font-size: 22px;
+    padding: 12px;
+  }
+
+  .bbq-result-wrapper {
+    margin: 20px auto;
+    padding: 16px;
+  }
+
+  .bbq-result-value {
+    font-size: 34px;
+  }
+
+  .bbq-table th,
+  .bbq-table td {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
+
+/* Mobile Karten */
+
+.bbq-mobile-list {
+  display: none;
+}
+
+.bbq-card {
+  border: 2px solid #b89b6d;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+  background: #f7f6f3;
+}
+
+.bbq-card.active {
+  background: #f3ede2;
+}
+
+.bbq-card-phase {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.bbq-card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bbq-card-values {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.bbq-card-result {
+  font-weight: 700;
+}
+
+/* Mobile Layout */
+
+@media (max-width: 768px) {
+  .desktop-table {
+    display: none;
+  }
+
+  .bbq-mobile-list {
+    display: block;
+  }
+}
+>>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
