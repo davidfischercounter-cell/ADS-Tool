@@ -1,0 +1,64 @@
+{
+    "entries": [
+      {
+        "id": "punktwolke-export-revit",
+        "title": "Export für Revit",
+        "shortDescription": "Anleitung zum Exportieren einer Punktwolke aus Autodesk Recap für die Weiterverarbeitung in Revit. Für die Übergabe wird hier der Export als RCS bevorzugt.",
+  
+        "video": {
+          "url": "",
+          "title": "Export für Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Punktwolke vor dem Export prüfen",
+              "text": "Kontrolliere vor dem Export, ob die Punktwolke vollständig geladen, sinnvoll bereinigt und auf den relevanten Bereich reduziert wurde. Alles, was vorher sauber vorbereitet ist, spart später Arbeit in Revit."
+            },
+            {
+              "title": "Bereiche und Störungen bereinigen",
+              "text": "Entferne störende Punkte wie Personen, Fahrzeuge, Vegetation oder unnötige Randbereiche. Eine bereinigte Punktwolke verbessert Übersicht, Performance und Modellierbarkeit in Revit."
+            },
+            {
+              "title": "Koordinaten und Ausrichtung kontrollieren",
+              "text": "Prüfe, ob Ursprung, Ausrichtung und Lage der Punktwolke korrekt sind. Gerade für die spätere Einbindung in Revit ist eine saubere Positionierung entscheidend, damit die Punktwolke nicht verschoben oder verdreht erscheint."
+            },
+            {
+              "title": "Darstellung für den Export vorbereiten",
+              "text": "Kontrolliere, ob die Punktwolke in einer sinnvollen Form vorliegt. Dazu gehört auch, dass nur die benötigten Bereiche enthalten sind und keine unnötig große Datenmenge exportiert wird."
+            },
+            {
+              "title": "Export starten",
+              "text": "Starte in Recap den Export der aufbereiteten Punktwolke. Wähle für die Weitergabe an Revit den Export in ein ReCap-kompatibles Punktwolkenformat."
+            },
+            {
+              "title": "RCS als Exportformat wählen",
+              "text": "Für die Weiterverarbeitung in Revit kann RCS sinnvoll sein, da es die eigentliche Punktwolkendatei darstellt. Bei einer vereinheitlichten Punktwolke ist das oft die klarere und direktere Variante als eine projektbasierte RCP-Struktur."
+            },
+            {
+              "title": "Exportdatei sinnvoll benennen und ablegen",
+              "text": "Vergib einen eindeutigen Dateinamen und speichere die Datei an einem nachvollziehbaren Projektpfad. Sinnvoll sind Benennungen mit Projekt, Gebäudeteil, Stand und Datum."
+            },
+            {
+              "title": "Exportdatei in Revit verknüpfen",
+              "text": "Verknüpfe die exportierte Punktwolke in Revit über die Punktwolken-Funktion. Achte dabei auf die richtige Positionierungsmethode, damit Ursprung und Lage korrekt übernommen werden."
+            },
+            {
+              "title": "Lage in Revit kontrollieren",
+              "text": "Überprüfe nach dem Verknüpfen sofort, ob die Punktwolke an der richtigen Stelle liegt. Kontrolliere bekannte Punkte, Höhen und gegebenenfalls die Ausrichtung zu bestehenden Modellinhalten."
+            }
+          ],
+  
+          "tips": [
+            "Vor dem Export immer erst bereinigen – das spart später massiv Zeit in Revit.",
+            "Nur relevante Bereiche exportieren, um die Performance zu verbessern.",
+            "Koordinaten und Ursprung vor dem Export prüfen, sonst wird die Einbindung in Revit unnötig nervig.",
+            "Für eine einzelne vereinheitlichte Punktwolke ist RCS oft die direktere Lösung.",
+            "Dateinamen klar und projektbezogen vergeben, damit später nichts verwechselt wird.",
+            "Nach dem Verknüpfen in Revit die Lage sofort kontrollieren und nicht erst nach dem Modellieren."
+          ]
+        }
+      }
+    ]
+  }

@@ -1,13 +1,19 @@
 .back-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: white;
   border: 2px solid #b7a37a;
   color: #2b2b2b;
-
-  padding: 10px 18px;
+  padding: 8px 14px;
   border-radius: 10px;
-
   font-size: 14px;
   font-weight: 600;
-
   cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  background: #f5f3ee;
 }

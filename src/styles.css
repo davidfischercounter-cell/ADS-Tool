@@ -1,98 +1,124 @@
-:root {
-  --content-width: 1100px;
-  --content-padding: 20px;
-}
-
-.App {
-  font-family: sans-serif;
-}
-
-.request-form {
-  max-width: 700px;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.request-input,
-.request-textarea,
-.request-select {
-  padding: 14px;
-  border-radius: 12px;
-  border: 2px solid #e0e0e0;
-  font-size: 15px;
+.header {
   width: 100%;
-  box-sizing: border-box;
-  transition: border 0.2s ease;
-}
-
-.request-input:focus,
-.request-textarea:focus,
-.request-select:focus {
-  outline: none;
-  border: 2px solid #b7a37a;
-}
-
-.request-textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.request-button {
-  align-self: center;
-  padding: 14px 30px;
-  border-radius: 14px;
-  border: 2px solid #b7a37a;
-  background: white;
-  font-weight: 600;
-  font-size: 15px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.request-button:hover {
-  background: #f5f3ee;
-  transform: translateY(-1px);
+  padding-top: 12px;
 }
 
 .header-inner {
   max-width: var(--content-width);
   margin: auto;
-  padding: 0 20px;
-}
-
-.bbq-container {
-  max-width: var(--content-width);
-  margin: auto;
-  padding: 20px;
-}
-
-.page {
-  max-width: var(--content-width);
-  margin: auto;
-  padding: var(--content-padding);
+  padding: 0 var(--content-padding);
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 
-/* Mobile Header anpassen */
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.header-logo-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header-logo {
+  display: block;
+  height: 88px;
+  width: auto;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 2px;
+}
+
+.bbq-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border: 2px solid #b89b6d;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  background: white;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.bbq-button:hover {
+  background: #b89b6d;
+  color: white;
+}
+
+.header-search-form {
+  width: 100%;
+}
+
+.header-search {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid #d8d8d8;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.header-search:focus {
+  outline: none;
+  border-color: #b89b6d;
+}
+
 @media (max-width: 768px) {
   .header-inner {
     padding: 0 14px;
   }
 
-  .logo img,
-  .header-logo img {
-    max-height: 38px;
-    width: auto;
+  .header-top {
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .header-logo {
+    height: 52px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
 
   .bbq-button {
-    font-size: 12px;
     padding: 6px 10px;
-    border-radius: 10px;
+    font-size: 13px;
+  }
+
+  .header-search {
+    padding: 14px;
+    font-size: 15px;
   }
 }
-=======
->>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
+
+@media (max-width: 480px) {
+  .header-logo {
+    height: 44px;
+  }
+
+  .bbq-button {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
+  .header-search {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

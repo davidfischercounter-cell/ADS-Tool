@@ -1,0 +1,42 @@
+{
+    "entries": [
+      {
+        "id": "waende-erstellen",
+        "title": "Wände erstellen",
+        "shortDescription": "Grundlegende Anleitung zum Erstellen und Bearbeiten von Wänden in Revit.",
+  
+        "video": {
+          "url": "",
+          "title": "Wände erstellen in Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Grundriss oder Ansicht öffnen",
+              "text": "Öffne einen Grundriss oder eine geeignete Ansicht, in der du die Wände platzieren möchtest. Der Grundriss ist in der Regel am übersichtlichsten."
+            },
+            {
+              "title": "Wand-Werkzeug auswählen",
+              "text": "Wechsle in den Reiter 'Architektur' und wähle das Werkzeug 'Wand'. Dort kannst du den Wandtyp und die Einstellungen festlegen."
+            },
+            {
+              "title": "Wand zeichnen",
+              "text": "Zeichne die Wand entlang der gewünschten Linie. Du kannst dabei bestehende Geometrie fangen oder frei zeichnen. Achte auf die richtige Ausrichtung (Innen-/Außenkante)."
+            },
+            {
+              "title": "Eigenschaften prüfen und anpassen",
+              "text": "Überprüfe im Eigenschaftenfenster Höhe, Basisebene und Versatz. Stelle sicher, dass die Wand korrekt an die Geschosse gebunden ist."
+            }
+          ],
+  
+          "tips": [
+            "Immer den richtigen Wandtyp vor dem Zeichnen auswählen",
+            "Mit Referenzlinien oder bestehenden Bauteilen arbeiten",
+            "Wände sauber an Geschosse anbinden",
+            "Innen- und Außenkante bewusst wählen"
+          ]
+        }
+      }
+    ]
+  }

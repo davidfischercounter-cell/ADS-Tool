@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useMemo } from "react";
-import guides from "../data/guides";
+import { guides } from "../data/guides";
 
 function normalizeText(text = "") {
   return text

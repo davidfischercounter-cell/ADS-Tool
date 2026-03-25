@@ -48,11 +48,9 @@
   width: 100%;
   max-height: 600px;
   overflow-y: auto;
-<<<<<<< HEAD
-=======
-  overflow-x: auto; /* wichtig für Smartphones */
->>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
-  margin-top: 20px;
+
+=  overflow-x: auto; /* wichtig für Smartphones */
+>> margin-top: 20px;
 }
 
 /* Tabelle */
@@ -60,10 +58,8 @@
 .bbq-table {
   width: 100%;
 <<<<<<< HEAD
-=======
-  min-width: 650px; /* verhindert Layoutbruch */
->>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
-  border-collapse: collapse;
+===px; /* verhindert Layoutbruch */
+>>>>>rder-collapse: collapse;
   font-size: 14px;
 }
 
@@ -148,30 +144,37 @@
 .bbq-table td:nth-child(6) {
 <<<<<<< HEAD
   width: 30px;
-=======
-  width: 40px;
->>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
-  text-align: center;
-}
+====/* Button */
 
-/* Anwendung */
-
-.bbq-table td:nth-child(2) {
-  line-height: 1.4;
-}
-
-<<<<<<< HEAD
-=======
-/* Button */
-
->>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
-.bbq-report-button {
+.bbq-button {
   margin-top: 20px;
-  padding: 16px;
+  width: 100%;
+  display: block;
+
+ padding: 14px 18px;
   border: 2px solid #b89b6d;
   border-radius: 10px;
   background: white;
+  color: #2b2b2b;
+
   font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.bbq-report-button:hover {
+  background: #b89b6d;
+  color: white;
+}
+
+.bbq-report-button.full {
+  width: 100%;
+}ont-weight: 600;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -189,9 +192,9 @@
 <<<<<<< HEAD
 =======
 
-/* ------------------ MOBILE ------------------ */
+/* --OBILE ------------------ */
 
-@media (max-width: 768px) {
+@med-width: 768px) {
   .bbq-container {
     padding: 14px;
   }
@@ -246,7 +249,8 @@
 }
 
 .bbq-card-values {
-  display: flex;
+  display: flex
+;
   gap: 10px;
   flex-wrap: wrap;
   font-size: 13px;

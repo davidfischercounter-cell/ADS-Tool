@@ -5,25 +5,25 @@ export const guides = [
     id: "waende-erstellen",
     title: "Wände erstellen",
     category: "modellierung",
-    content: "So erstellt man Wände in Revit...",
+    file: "waende.json",
   },
   {
     id: "decken-erstellen",
     title: "Decken erstellen",
     category: "modellierung",
-    content: "So erstellt man Decken...",
+    file: "decken.json",
   },
   {
     id: "geschosse-anlegen",
     title: "Geschosse anlegen",
     category: "modellierung",
-    content: "Geschosse werden hier erklärt...",
+    file: "geschoss.json",
   },
   {
     id: "raeume-erstellen",
     title: "Räume erstellen",
     category: "modellierung",
-    content: "Räume funktionieren so...",
+    file: "raeume.json",
   },
 
   {
@@ -43,10 +43,10 @@ export const guides = [
   //Punktwolken
 
   {
-    id: "punktwolke-verschieben",
-    title: "Punktwolke verschieben",
+    id: "punktwolke-recap",
+    title: "Punktwolken in Recap",
     category: "punktwolken",
-    content: "So verschiebst du eine Punktwolke...",
+    file: "punktwolke-recap.json",
   },
 
   {
@@ -54,6 +54,20 @@ export const guides = [
     title: "Punktwolke Import Revit",
     category: "punktwolken",
     content: "So importierst du eine Punktwolke in Revit...",
+  },
+
+  {
+    id: "punktwolke-bereinigen",
+    title: "Punktwolke bereinigen",
+    category: "punktwolken",
+    file: "punktwolke-bereinigen.json",
+  },
+
+  {
+    id: "punktwolke-export",
+    title: "Punktwolke Exportieren",
+    category: "punktwolken",
+    file: "punktwolke-export.json",
   },
 
   //Problemlösungen

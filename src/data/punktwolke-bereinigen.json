@@ -1,0 +1,40 @@
+{
+    "entries": [
+      {
+        "id": "punktwolke-bereinigen",
+        "title": "Punktwolke bereinigen",
+        "shortDescription": "Entfernen von Störungen und unnötigen Daten in Autodesk Recap.",
+  
+        "video": {
+          "url": "",
+          "title": "Punktwolke bereinigen"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Störbereiche identifizieren",
+              "text": "Suche nach Bereichen mit Personen, Fahrzeugen oder Messfehlern."
+            },
+            {
+              "title": "Auswahlwerkzeuge nutzen",
+              "text": "Markiere unerwünschte Punkte mit den Auswahltools."
+            },
+            {
+              "title": "Bereiche entfernen",
+              "text": "Lösche die markierten Punkte aus der Punktwolke."
+            },
+            {
+              "title": "Ergebnis kontrollieren",
+              "text": "Überprüfe die Punktwolke auf Vollständigkeit und Sauberkeit."
+            }
+          ],
+          "tips": [
+            "Immer schrittweise arbeiten",
+            "Nicht zu viel auf einmal löschen",
+            "Vorher eine Sicherung behalten"
+          ]
+        }
+      }
+    ]
+  }

@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  padding-top: 12px;
 }
 
 .header-inner {
@@ -14,10 +15,28 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  gap: 20px;
+}
+
+.header-logo-link {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .header-logo {
+  display: block;
   height: 60px;
+  width: auto;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-search-form {
+  width: 100%;
 }
 
 .header-search {
@@ -27,30 +46,36 @@
   border: 1px solid #ddd;
   font-size: 16px;
   box-sizing: border-box;
+  background: white;
 }
 
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+.header-search:focus {
+  outline: none;
+  border-color: #b89b6d;
 }
 
 .bbq-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 8px 14px;
   border: 2px solid #b89b6d;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
   color: #333;
+  background: white;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .bbq-button:hover {
   background: #b89b6d;
   color: white;
 }
-<<<<<<< HEAD
 
-/* Smartphone */
+/* Mobile */
+
 @media (max-width: 768px) {
   .header-inner {
     padding: 0 14px;
@@ -58,30 +83,9 @@
 
   .header-top {
     margin-bottom: 14px;
+    gap: 12px;
   }
 
-  .header-logo {
-    height: 48px;
-  }
-
-  .header-right {
-    gap: 10px;
-  }
-
-  .bbq-button {
-    padding: 6px 10px;
-    font-size: 13px;
-    border-width: 2px;
-    white-space: nowrap;
-  }
-
-  .header-search {
-    padding: 14px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 480px) {
   .header-logo {
     height: 42px;
   }
@@ -100,5 +104,4 @@
     font-size: 14px;
   }
 }
-=======
->>>>>>> 497c51a318d1fe6d7481a660e6d6585c2e798e01
+7c51a318d1fe6d7481a660e6d6585c2e798e01

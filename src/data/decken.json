@@ -1,0 +1,42 @@
+{
+    "entries": [
+      {
+        "id": "decken-erstellen",
+        "title": "Decken erstellen",
+        "shortDescription": "Anleitung zum Erstellen und Anpassen von Decken in Revit.",
+  
+        "video": {
+          "url": "",
+          "title": "Decken erstellen in Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Grundriss öffnen",
+              "text": "Öffne den passenden Grundriss, in dem die Decke erstellt werden soll. Meist wird die Decke im Geschoss darunter gezeichnet."
+            },
+            {
+              "title": "Decken-Werkzeug auswählen",
+              "text": "Gehe im Reiter 'Architektur' auf 'Decke'. Wähle den passenden Deckentyp aus den Eigenschaften aus."
+            },
+            {
+              "title": "Skizze der Decke erstellen",
+              "text": "Zeichne die Begrenzung der Decke. Du kannst Wände automatisch übernehmen oder die Kontur manuell zeichnen."
+            },
+            {
+              "title": "Skizze abschließen und prüfen",
+              "text": "Bestätige die Skizze und überprüfe die Höhe sowie den Bezug zum Geschoss. Passe bei Bedarf die Eigenschaften an."
+            }
+          ],
+  
+          "tips": [
+            "Decken immer im richtigen Geschoss modellieren",
+            "Wände als Begrenzung nutzen spart Zeit",
+            "Auf korrekte Höhenzuordnung achten",
+            "Bei Problemen Skizzenlinie prüfen"
+          ]
+        }
+      }
+    ]
+  }

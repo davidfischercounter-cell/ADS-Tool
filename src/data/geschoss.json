@@ -1,0 +1,38 @@
+{
+  "entries": [
+    {
+      "id": "geschosse-anlegen",
+      "title": "Geschosse anlegen",
+      "shortDescription": "Anleitung zum Erstellen und Strukturieren von Geschossen in Revit.",
+      "video": {
+        "url": "",
+        "title": "Geschosse anlegen"
+      },
+      "content": {
+        "steps": [
+          {
+            "title": "Schnittansicht öffnen",
+            "text": "Öffne zuerst eine Schnittansicht, damit du die Höhen der Ebenen sauber setzen kannst."
+          },
+          {
+            "title": "Ebene-Werkzeug wählen",
+            "text": "Gehe im Reiter Architektur auf das Werkzeug Ebene, um neue Geschosse anzulegen."
+          },
+          {
+            "title": "Geschosse platzieren",
+            "text": "Setze die Ebenen an den gewünschten Höhen und benenne sie direkt sauber."
+          },
+          {
+            "title": "Ansichten erzeugen",
+            "text": "Lass beim Erstellen automatisch Grundrisse anlegen, damit du sofort weiterarbeiten kannst."
+          }
+        ],
+        "tips": [
+          "Geschosse direkt sauber benennen",
+          "Höhen vorher festlegen",
+          "Schnittansicht ist dafür am angenehmsten"
+        ]
+      }
+    }
+  ]
+}

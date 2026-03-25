@@ -10,13 +10,23 @@ function Clouds() {
 
       <div className="dashboard">
         <div className="tile-grid">
-          <Link to="/guide/punktwolke-verschieben" className="tile">
-            Punktwolke verschieben
+          <Link to="/guide/punktwolke-recap" className="tile">
+            Punktwolken in Recap
           </Link>
 
           <Link to="/guide/punktwolke Import Revit" className="tile">
             Punktwolke Import Revit
           </Link>
+
+          <Link to="/guide/punktwolke-bereinigen" className="tile">
+            Punktwolke bereinigen
+          </Link>
+
+          <Link to="/guide/punktwolke-export" className="tile">
+            Punktwolke Export
+          </Link>
+
+
         </div>
       </div>
     </div>

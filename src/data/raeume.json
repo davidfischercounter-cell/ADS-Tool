@@ -1,0 +1,42 @@
+{
+    "entries": [
+      {
+        "id": "raeume-erstellen",
+        "title": "Räume erstellen",
+        "shortDescription": "Anleitung zum Erstellen und Prüfen von Räumen in Revit.",
+  
+        "video": {
+          "url": "",
+          "title": "Räume erstellen in Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Passenden Grundriss öffnen",
+              "text": "Öffne den Grundriss des Geschosses, in dem die Räume erstellt werden sollen. Achte darauf, dass Wände und Begrenzungen vollständig vorhanden sind."
+            },
+            {
+              "title": "Raum-Werkzeug auswählen",
+              "text": "Gehe im Reiter 'Architektur' auf das Werkzeug 'Raum'. Damit kannst du Räume in geschlossenen Bereichen platzieren."
+            },
+            {
+              "title": "Räume platzieren",
+              "text": "Klicke in die gewünschten, geschlossenen Bereiche. Revit erkennt die Begrenzungen automatisch, sofern der Raum sauber umschlossen ist."
+            },
+            {
+              "title": "Raumdaten prüfen und anpassen",
+              "text": "Überprüfe Name, Nummer und Fläche des Raums in den Eigenschaften. Kontrolliere außerdem, ob die Raumbegrenzung korrekt erkannt wurde."
+            }
+          ],
+  
+          "tips": [
+            "Räume funktionieren nur in sauber geschlossenen Bereichen",
+            "Bei fehlenden Räumen zuerst Begrenzungen prüfen",
+            "Raumnummern direkt sauber vergeben",
+            "Raumtrennlinien helfen bei offenen Bereichen"
+          ]
+        }
+      }
+    ]
+  }

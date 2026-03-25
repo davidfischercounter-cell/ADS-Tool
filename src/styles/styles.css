@@ -1,0 +1,115 @@
+:root {
+  --content-width: 1100px;
+  --content-padding: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.page {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: var(--content-padding);
+  box-sizing: border-box;
+}
+
+.request-form {
+  max-width: 700px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.request-input,
+.request-textarea,
+.request-select {
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.request-input:focus,
+.request-textarea:focus,
+.request-select:focus {
+  outline: none;
+  border: 2px solid #b7a37a;
+}
+
+.request-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.request-button {
+  align-self: center;
+  padding: 14px 30px;
+  border-radius: 14px;
+  border: 2px solid #b7a37a;
+  background: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.request-button:hover {
+  background: #f5f3ee;
+  transform: translateY(-1px);
+}
+
+.bbq-container {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 20px;
+}
+
+.search-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.search-result-card {
+  display: block;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.search-result-card:hover {
+  border-color: #b89b6d;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.search-result-card h3 {
+  margin: 0 0 8px;
+}
+
+.search-result-card p {
+  margin: 0;
+}
+
+.search-result-category {
+  font-size: 14px;
+  font-weight: 600;
+  color: #b89b6d;
+  margin-bottom: 8px !important;
+}

@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "id": "punktwolke-recap",
+      "title": "Punktwolken in Recap",
+      "shortDescription": "Kompletter Workflow zur Bearbeitung von Punktwolken in Autodesk Recap – vom Import bis zum Export für Revit.",
+
+      "video": {
+        "url": "",
+        "title": "Punktwolken in Recap"
+      },
+
+      "content": {
+        "steps": [
+          {
+            "title": "Import der Punktwolke (E57)",
+            "text": "Erstelle ein neues Projekt in Recap und importiere die Punktwolke im E57-Format. Dieses Format enthält in der Regel strukturierte Scandaten inklusive Standpunkten."
+          },
+          {
+            "title": "Projekt prüfen und laden",
+            "text": "Nach dem Import wird die Punktwolke verarbeitet. Kontrolliere, ob alle Scans korrekt geladen wurden und keine Daten fehlen."
+          },
+          {
+            "title": "Navigation und Orientierung",
+            "text": "Verschaffe dir einen Überblick über das Projekt. Nutze Orbit, Pan und Zoom, um dich im Modell zu bewegen und die Struktur der Punktwolke zu verstehen."
+          },
+          {
+            "title": "RealView-Punkte nutzen",
+            "text": "Wechsle zwischen den Scanpositionen über die RealView-Ansicht. Diese ermöglicht eine realistische Darstellung der Umgebung und hilft beim Erkennen von Details."
+          },
+          {
+            "title": "Punktwolke bereinigen",
+            "text": "Entferne störende Punkte wie Personen, Fahrzeuge oder Messrauschen. Eine saubere Punktwolke erleichtert die weitere Bearbeitung erheblich.",
+            "link": "punktwolke-bereinigen"
+          },
+          {
+            "title": "Bereiche zuschneiden / isolieren",
+            "text": "Nutze Zuschneide- oder Auswahlwerkzeuge, um nur relevante Gebäudeteile darzustellen. Das verbessert Übersicht und Performance."
+          },
+          {
+            "title": "Messungen durchführen",
+            "text": "Verwende die Messwerkzeuge, um Abstände, Höhen oder Diagonalen zu bestimmen. Achte darauf, präzise Punkte zu wählen."
+          },
+          {
+            "title": "Koordinaten und Ausrichtung prüfen",
+            "text": "Stelle sicher, dass die Punktwolke korrekt ausgerichtet ist und im richtigen Koordinatensystem liegt. Das ist entscheidend für die Weiterverarbeitung in Revit."
+          },
+          {
+            "title": "Darstellung und Farben anpassen",
+            "text": "Nutze verschiedene Darstellungsmodi wie RGB oder Intensität, um Strukturen besser zu erkennen und Details sichtbar zu machen."
+          },
+          {
+            "title": "Export für Revit (RCP/RCS)",
+            "text": "Exportiere die Punktwolke als RCP/RCS-Datei. Dieses Format wird für die Weiterverarbeitung in Revit benötigt.",
+            "link": "punktwolke-export"
+          }
+        ],
+
+        "tips": [
+          "E57 ist das beste Austauschformat für strukturierte Punktwolken",
+          "RealView nutzen, um komplexe Bereiche besser zu verstehen",
+          "Vor dem Export immer bereinigen – spart massiv Zeit in Revit",
+          "Koordinaten vor dem Export prüfen, sonst wird es später chaotisch",
+          "Große Punktwolken immer zuschneiden für bessere Performance",
+          "Messungen mehrfach prüfen, da Punktwolken ungenau sein können"
+        ]
+      }
+    }
+  ]
+}
