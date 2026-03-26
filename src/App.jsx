@@ -1,3 +1,4 @@
+import ScrollToTop from "./components/ScrollToTop";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout.jsx";
@@ -23,6 +24,9 @@ import SearchResults from "./pages/SearchResults.jsx";
 
 function App() {
   return (
+    <>
+    <ScrollToTop/>
+    
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
@@ -43,6 +47,7 @@ function App() {
         <Route path="/search" element={<SearchResults />} />
       </Route>
     </Routes>
+    </>
   );
 }
 
