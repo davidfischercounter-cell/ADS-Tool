@@ -39,7 +39,7 @@ function Header() {
           <div className="header-right">
             {location.pathname !== "/" && <BackButton />}
 
-            <Link to="/bbq" className="bbq-button">
+            <Link to="/bbq" className="header-btn">
               BBQ Tool
             </Link>
           </div>

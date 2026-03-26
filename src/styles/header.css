@@ -54,27 +54,30 @@
   border-color: #b89b6d;
 }
 
-.bbq-button {
+.header-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 14px;
+  height: 40px;
+  padding: 0 16px;
   border: 2px solid #b89b6d;
-  border-radius: 6px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: 600;
+  font-size: 14px;
   color: #333;
   background: white;
   white-space: nowrap;
   box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1;
+  appearance: none;
 }
 
-.bbq-button:hover {
+.header-btn:hover {
   background: #b89b6d;
   color: white;
 }
-
-/* Mobile */
 
 @media (max-width: 768px) {
   .header-inner {
@@ -94,9 +97,11 @@
     gap: 8px;
   }
 
-  .bbq-button {
-    padding: 5px 8px;
+  .header-btn {
+    height: 34px;
+    padding: 0 10px;
     font-size: 12px;
+    border-radius: 8px;
   }
 
   .header-search {
@@ -104,4 +109,3 @@
     font-size: 14px;
   }
 }
-7c51a318d1fe6d7481a660e6d6585c2e798e01

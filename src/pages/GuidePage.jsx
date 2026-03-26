@@ -8,6 +8,10 @@ import raeumeData from "../data/raeume.json";
 import punktwolkeData from "../data/punktwolke-recap.json";
 import bereinigenData from "../data/punktwolke-bereinigen.json";
 import punktwolkeexportData from "../data/punktwolke-export.json";
+import zusammenarbeitData from "../data/zusammenarbeit-lokal.json";
+import zusammenarbeitAktivierenData from "../data/zusammenarbeit-aktivieren.json";
+import zentraldateiErstellenData from "../data/zentraldatei-erstellen.json";
+import lokaledateiErstellenData from "../data/lokale-datei-erstellen.json";
 
 const guideFiles = {
   "geschoss.json": geschossData,
@@ -17,7 +21,10 @@ const guideFiles = {
   "punktwolke-recap.json": punktwolkeData,
   "punktwolke-bereinigen.json": bereinigenData,
   "punktwolke-export.json": punktwolkeexportData,
-
+  "zusammenarbeit-lokal.json": zusammenarbeitData,
+  "zusammenarbeit-aktivieren.json": zusammenarbeitAktivierenData,
+  "zentraldatei-erstellen.json": zentraldateiErstellenData,
+  "lokale-datei-erstellen.json": lokaledateiErstellenData,
 };
 
 function GuidePage() {

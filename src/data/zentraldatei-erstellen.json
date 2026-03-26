@@ -1,0 +1,62 @@
+{
+    "entries": [
+      {
+        "id": "zentraldatei-erstellen",
+        "title": "Zentraldatei erstellen",
+        "shortDescription": "So erstellst du eine Revit-Zentraldatei korrekt und vermeidest typische Fehler bei der Zusammenarbeit.",
+  
+        "video": {
+          "url": "",
+          "title": "Zentraldatei erstellen in Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Zusammenarbeit aktivieren",
+              "text": "Stelle sicher, dass die Zusammenarbeit im Modell bereits aktiviert wurde. Ohne diesen Schritt kann keine Zentraldatei erstellt werden.",
+              "link": "zusammenarbeit-aktivieren"
+            },
+            {
+              "title": "Server-Speicherort wählen",
+              "text": "Wähle einen gemeinsamen Serverpfad, auf den alle Projektbeteiligten Zugriff haben. Die Zentraldatei darf niemals lokal auf einem einzelnen Rechner gespeichert werden."
+            },
+            {
+              "title": "Als Zentraldatei speichern",
+              "text": "Speichere das Modell über 'Speichern unter' als Projektdatei auf dem Server. Aktiviere dabei die Option zur Erstellung einer Zentraldatei."
+            },
+            {
+              "title": "Dateinamen festlegen",
+              "text": "Vergib einen eindeutigen und einheitlichen Namen für die Zentraldatei, z. B. mit Projektname und Status. Vermeide Sonderzeichen oder uneinheitliche Bezeichnungen."
+            },
+            {
+              "title": "Zentraldatei nicht direkt bearbeiten",
+              "text": "Die Zentraldatei dient nur als Grundlage. Es darf niemals direkt in dieser Datei gearbeitet werden."
+            },
+            {
+              "title": "Lokale Dateien erstellen",
+              "text": "Jede Person im Projekt erstellt sich eine eigene lokale Datei aus der Zentraldatei und arbeitet ausschließlich darin.",
+              "link": "lokale-datei-erstellen"
+            },
+            {
+              "title": "Erste Synchronisation testen",
+              "text": "Führe eine erste Synchronisation durch, um sicherzustellen, dass die Verbindung zur Zentraldatei funktioniert."
+            },
+            {
+              "title": "Zugriffsrechte prüfen",
+              "text": "Stelle sicher, dass alle Projektbeteiligten Zugriff auf den Serverpfad haben und die Datei öffnen können."
+            }
+          ],
+  
+          "tips": [
+            "Zentraldatei niemals lokal speichern",
+            "Nie direkt in der Zentraldatei arbeiten",
+            "Serververbindung muss stabil sein",
+            "Dateinamen sauber und eindeutig halten",
+            "Nach dem Erstellen direkt testen",
+            "Bei Problemen lieber neu erstellen als reparieren"
+          ]
+        }
+      }
+    ]
+  }

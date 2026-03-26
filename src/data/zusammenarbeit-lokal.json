@@ -1,0 +1,71 @@
+{
+    "entries": [
+      {
+        "id": "zusammenarbeit-lokal",
+        "title": "Zusammenarbeit (Lokal)",
+        "shortDescription": "Anleitung zum Einrichten einer lokalen Revit-Zusammenarbeit mit Zentraldatei sowie Hinweise für einen sauberen Workflow im Team.",
+  
+        "video": {
+          "url": "",
+          "title": "Zusammenarbeit lokal in Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Projektdatei vorbereiten",
+              "text": "Bevor die Zusammenarbeit aktiviert wird, sollte die Projektdatei sauber vorbereitet sein. Dazu gehören eine sinnvolle Struktur, bereinigte Ansichten, benannte Ebenen und ein möglichst aufgeräumtes Modell."
+            },
+            {
+              "title": "Geeigneten Speicherort wählen",
+              "text": "Die spätere Zentraldatei sollte auf einem stabilen, für alle beteiligten Personen erreichbaren Serverlaufwerk liegen. Der Speicherort muss dauerhaft verfügbar sein und darf nicht lokal auf einem einzelnen Rechner abgelegt werden."
+            },
+            {
+              "title": "Zusammenarbeit aktivieren",
+              "text": "Aktiviere in Revit die Zusammenarbeit über die entsprechende Funktion im Reiter für Zusammenarbeit. Dabei wird das Modell für die Bearbeitung durch mehrere Personen vorbereitet.",
+              "link": "zusammenarbeit-aktivieren"
+            },
+            {
+              "title": "Arbeitsbereiche festlegen",
+              "text": "Lege sinnvolle Arbeitsbereiche an, wenn das Projekt dies erfordert. Eine saubere Unterteilung kann helfen, die Bearbeitung zu strukturieren und Zuständigkeiten klarer zu trennen."
+            },
+            {
+              "title": "Zentraldatei erstellen",
+              "text": "Speichere das Modell nach dem Aktivieren der Zusammenarbeit als Zentraldatei auf dem vorgesehenen Serverpfad. Diese Datei ist die Hauptdatei des Projekts und darf nicht wie eine normale Projektdatei behandelt werden.",
+              "link": "zentraldatei-erstellen"
+            },
+            {
+              "title": "Lokale Datei anlegen",
+              "text": "Jede bearbeitende Person sollte anschließend eine eigene lokale Datei von der Zentraldatei erstellen. Es darf nicht direkt in der Zentraldatei gearbeitet werden."
+            },
+            {
+              "title": "Mit der lokalen Datei arbeiten",
+              "text": "Die tägliche Bearbeitung erfolgt ausschließlich in der lokalen Datei. Änderungen werden regelmäßig mit der Zentraldatei synchronisiert, damit alle Beteiligten auf einem aktuellen Stand bleiben."
+            },
+            {
+              "title": "Regelmäßig synchronisieren",
+              "text": "Synchronisiere Änderungen in sinnvollen Abständen mit der Zentraldatei. Zu langes Arbeiten ohne Synchronisation erhöht die Gefahr von Konflikten und erschwert die Zusammenarbeit."
+            },
+            {
+              "title": "Vor dem Schließen synchronisieren",
+              "text": "Vor dem Beenden der Arbeit sollte immer sauber synchronisiert werden. So wird sichergestellt, dass der aktuelle Bearbeitungsstand in der Zentraldatei enthalten ist."
+            },
+            {
+              "title": "Lokale Datei bei Problemen neu erstellen",
+              "text": "Wenn eine lokale Datei fehlerhaft wirkt, ungewöhnlich langsam wird oder sich auffällig verhält, sollte sie gelöscht und neu aus der Zentraldatei erstellt werden."
+            }
+          ],
+  
+          "tips": [
+            "Nie direkt in der Zentraldatei arbeiten",
+            "Jede Person braucht ihre eigene lokale Datei",
+            "Zentraldatei immer auf einem stabilen Serverpfad ablegen",
+            "Regelmäßig synchronisieren, nicht erst am Tagesende",
+            "Lokale Dateien bei Auffälligkeiten lieber neu erstellen",
+            "Arbeitsbereiche nur nutzen, wenn sie im Projekt wirklich sinnvoll sind",
+            "Dateinamen und Speicherorte im Team einheitlich halten"
+          ]
+        }
+      }
+    ]
+  }

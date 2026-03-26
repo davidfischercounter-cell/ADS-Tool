@@ -39,6 +39,35 @@ export const guides = [
     category: "darstellung",
     content: "Filter funktionieren so...",
   },
+  //Revit
+
+  {
+    id: "zusammenarbeit-lokal",
+    title: "Zusammenarbeit Lokal",
+    category: "zusammenarbeit",
+    file: "zusammenarbeit-lokal.json",
+  },
+
+  {
+    id: "zusammenarbeit-aktivieren",
+    title: "Zusammenarbeit aktivieren",
+    category: "zusammenarbeit",
+    file: "zusammenarbeit-aktivieren.json",
+  },
+
+  {
+    id: "zentraldatei-erstellen",
+    title: "Zentraldatei erstellen",
+    category: "zusammenarbeit",
+    file: "zentraldatei-erstellen.json",
+  },
+
+  {
+    id: "lokale-datei-erstellen",
+    title: "Lokale Datei erstellen",
+    category: "zusammenarbeit",
+    file: "lokale-datei-erstellen.json",
+  },
 
   //Punktwolken
 

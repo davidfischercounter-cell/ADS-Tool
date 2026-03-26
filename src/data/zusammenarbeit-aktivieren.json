@@ -1,0 +1,47 @@
+{
+  "entries": [
+    {
+      "id": "zusammenarbeit-aktivieren",
+      "title": "Zusammenarbeit aktivieren",
+      "shortDescription": "So aktivierst du die Zusammenarbeit in Revit und bereitest dein Modell für die Arbeit mit einer Zentraldatei vor.",
+
+      "video": {
+        "url": "",
+        "title": "Zusammenarbeit aktivieren in Revit"
+      },
+
+      "content": {
+        "steps": [
+          {
+            "title": "Projektdatei vorbereiten",
+            "text": "Stelle sicher, dass das Modell sauber aufgebaut ist. Entferne unnötige Ansichten, prüfe Ebenen und benenne wichtige Elemente sinnvoll."
+          },
+          {
+            "title": "Zusammenarbeit aktivieren",
+            "text": "Gehe im Reiter 'Zusammenarbeit' auf 'Zusammenarbeit aktivieren'. Revit bereitet das Modell für die Mehrbenutzerbearbeitung vor."
+          },
+          {
+            "title": "Arbeitsbereiche bestätigen",
+            "text": "Nach dem Aktivieren erstellt Revit automatisch Standard-Arbeitsbereiche. Diese können später angepasst werden."
+          },
+          {
+            "title": "Modell speichern",
+            "text": "Speichere die Datei nach dem Aktivieren. Dieser Schritt ist wichtig, damit die Zusammenarbeit dauerhaft im Modell verankert wird."
+          },
+          {
+            "title": "Speicherort prüfen",
+            "text": "Achte darauf, dass die Datei später als Zentraldatei auf einem gemeinsamen Server abgelegt wird und nicht lokal verbleibt."
+          }
+        ],
+
+        "tips": [
+          "Zusammenarbeit immer nur einmal am Anfang aktivieren",
+          "Vorher das Modell bereinigen spart später Probleme",
+          "Nicht in einer lokalen Datei aktivieren",
+          "Direkt danach sinnvoll abspeichern",
+          "Arbeitsbereiche erst später fein strukturieren"
+        ]
+      }
+    }
+  ]
+}

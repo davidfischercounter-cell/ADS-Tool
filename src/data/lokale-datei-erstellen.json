@@ -1,0 +1,60 @@
+{
+    "entries": [
+      {
+        "id": "lokale-datei-erstellen",
+        "title": "Lokale Datei erstellen",
+        "shortDescription": "So erstellst du eine lokale Revit-Datei aus der Zentraldatei und arbeitest korrekt im Team.",
+  
+        "video": {
+          "url": "",
+          "title": "Lokale Datei erstellen in Revit"
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Zentraldatei öffnen",
+              "text": "Öffne die Zentraldatei über den gemeinsamen Serverpfad. Achte darauf, dass du nicht aus Versehen eine lokale Kopie öffnest."
+            },
+            {
+              "title": "Als lokale Datei öffnen",
+              "text": "Aktiviere beim Öffnen die Option 'Lokale Datei erstellen'. Revit erstellt automatisch eine persönliche Arbeitsdatei für dich."
+            },
+            {
+              "title": "Speicherort der lokalen Datei",
+              "text": "Die lokale Datei wird auf deinem Rechner gespeichert. Sie sollte nicht auf dem Server liegen, sondern lokal für bessere Performance."
+            },
+            {
+              "title": "Dateiname prüfen",
+              "text": "Revit ergänzt automatisch deinen Benutzernamen im Dateinamen. Dadurch ist erkennbar, welche Datei zu welcher Person gehört."
+            },
+            {
+              "title": "Modell bearbeiten",
+              "text": "Arbeite ausschließlich in deiner lokalen Datei. Alle Änderungen werden dort vorgenommen und später synchronisiert."
+            },
+            {
+              "title": "Mit Zentraldatei synchronisieren",
+              "text": "Synchronisiere regelmäßig mit der Zentraldatei, damit deine Änderungen übernommen werden und du die Änderungen anderer erhältst."
+            },
+            {
+              "title": "Lokale Datei nicht weitergeben",
+              "text": "Deine lokale Datei ist nur für dich gedacht. Andere Personen dürfen niemals mit deiner lokalen Datei arbeiten."
+            },
+            {
+              "title": "Bei Problemen neu erstellen",
+              "text": "Wenn deine lokale Datei fehlerhaft ist oder sich ungewöhnlich verhält, lösche sie und erstelle sie neu aus der Zentraldatei."
+            }
+          ],
+  
+          "tips": [
+            "Immer mit eigener lokaler Datei arbeiten",
+            "Lokale Datei niemals weitergeben",
+            "Regelmäßig synchronisieren, nicht nur am Ende des Tages",
+            "Lokale Dateien bei Problemen einfach neu erstellen",
+            "Zentraldatei immer über den Server öffnen",
+            "Lokale Datei niemals auf dem Server speichern"
+          ]
+        }
+      }
+    ]
+  }
