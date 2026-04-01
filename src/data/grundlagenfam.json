@@ -1,0 +1,50 @@
+{
+  "entries": [
+    {
+      "id": "grundlagen",
+      "title": "Grundlagen",
+      "shortDescription": "Die wichtigsten Prinzipien für das Erstellen stabiler und funktionierender Familien in Revit.",
+
+      "video": {
+        "title": "Grundlagen Familien",
+        "url": ""
+      },
+
+      "content": {
+        "steps": [
+          {
+            "title": "Denke in Referenzebenen – nicht in Geometrie",
+            "text": "Der häufigste Fehler: direkt anfangen zu modellieren. In Revit funktionieren Familien über Referenzebenen. Diese definieren die Struktur und Maße. Die Geometrie wird später daran ausgerichtet."
+          },
+          {
+            "title": "Bemaßen und Verriegeln (Lock)",
+            "text": "Alle wichtigen Abstände müssen bemaßt und mit Referenzebenen verknüpft sein. Danach werden diese Maße verriegelt. Nur so bleibt deine Familie stabil, wenn sich Werte ändern."
+          },
+          {
+            "title": "Typ- vs. Exemplarparameter verstehen",
+            "text": "Typparameter gelten für alle gleichen Bauteile (z. B. alle Fenster eines Typs). Exemplarparameter gelten nur für ein einzelnes Element. Falsche Wahl führt schnell zu Chaos im Projekt."
+          },
+          {
+            "title": "Parameter sinnvoll benennen",
+            "text": "Vermeide Namen wie 'Breite1' oder 'Test'. Nutze klare Bezeichnungen wie 'Fensterbreite' oder 'Rahmenhöhe'. Das hilft dir und allen anderen im Projekt."
+          },
+          {
+            "title": "Familie regelmäßig testen",
+            "text": "Ändere während der Erstellung immer wieder Parameterwerte. Wenn sich deine Familie dabei zerlegt, ist irgendwo ein Fehler. Lieber früh merken als später im Projekt."
+          },
+          {
+            "title": "Einfach starten – dann erweitern",
+            "text": "Baue zuerst eine einfache funktionierende Version deiner Familie. Danach kannst du sie erweitern. Zu komplexe Familien am Anfang führen fast immer zu Problemen."
+          }
+        ],
+
+        "tips": [
+          "Ohne saubere Referenzebenen wird jede Familie früher oder später kaputtgehen.",
+          "Wenn sich etwas nicht ändern lässt, fehlt meist eine Bemaßung oder ein Lock.",
+          "Teste deine Familie immer mit extremen Werten (sehr groß / sehr klein).",
+          "Halte deine Familien so einfach wie möglich – weniger ist oft mehr."
+        ]
+      }
+    }
+  ]
+}

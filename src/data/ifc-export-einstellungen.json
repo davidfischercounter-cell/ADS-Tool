@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "id": "ifc-export-einstellungen",
+      "title": "IFC Export Einstellungen",
+      "shortDescription": "Die wichtigsten IFC-Exporteinstellungen in Revit verständlich erklärt – inkl. zusätzlicher Inhalte und Eigenschaftensätze.",
+
+      "video": {
+        "title": "IFC Export Einstellungen",
+        "url": ""
+      },
+
+      "content": {
+        "steps": [
+          {
+            "title": "IFC-Export starten",
+            "text": "Gehe auf Datei → Exportieren → IFC. Öffne die Exporteinstellungen, um die Optionen anzupassen."
+          },
+          {
+            "title": "IFC-Version wählen",
+            "text": "Standard ist IFC 2x3 Coordination View 2.0. Dieses Format wird von den meisten Programmen zuverlässig gelesen. IFC4 kann mehr, wird aber nicht überall unterstützt."
+          },
+          {
+            "title": "Aktuelle Ansicht exportieren",
+            "text": "Wenn aktiviert, wird nur die aktuelle Ansicht exportiert. Das reduziert die Dateigröße und verhindert unnötige Inhalte im IFC."
+          },
+          {
+            "title": "Zusätzliche Inhalte (Additional Content)",
+            "text": "Diese Option bestimmt, welche Zusatzinformationen exportiert werden. Dazu gehören z. B. Bauteileigenschaften, Materialien oder Mengen. Je mehr aktiviert ist, desto größer und detaillierter wird die Datei."
+          },
+          {
+            "title": "Eigenschaftensätze (Property Sets)",
+            "text": "Eigenschaftensätze enthalten Informationen zu Bauteilen, z. B. Materialien, Maße oder Parameter. Aktiviere 'Revit-Eigenschaftensätze', wenn zusätzliche Revit-Parameter mit exportiert werden sollen."
+          },
+          {
+            "title": "Gemeinsame Parameter exportieren",
+            "text": "Wenn du gemeinsame Parameter nutzt (z. B. für Beschriftungen oder Auswertungen), sollten diese mit exportiert werden. So bleiben wichtige Informationen erhalten."
+          },
+          {
+            "title": "Basismengen (Base Quantities)",
+            "text": "Aktiviere diese Option, wenn Mengen wie Fläche, Volumen oder Länge im IFC enthalten sein sollen. Das ist wichtig für Auswertungen und Mengenermittlungen."
+          },
+          {
+            "title": "IFC-Zuordnung prüfen (Mapping)",
+            "text": "Stelle sicher, dass Bauteile korrekt den IFC-Klassen zugeordnet sind (z. B. Wand = IfcWall). Falsche Zuordnung führt zu Problemen in anderen Programmen."
+          },
+          {
+            "title": "Export testen",
+            "text": "Öffne die IFC-Datei nach dem Export in einem Viewer oder einem anderen Programm. Prüfe, ob Geometrie und Informationen korrekt übertragen wurden."
+          }
+        ],
+
+        "tips": [
+          "IFC 2x3 Coordination View ist der sichere Standard.",
+          "Mehr Inhalte = größere Datei – nur das exportieren, was gebraucht wird.",
+          "Revit-Eigenschaftensätze nur aktivieren, wenn sie wirklich benötigt werden.",
+          "Basismengen sind wichtig für Mengenermittlung.",
+          "IFC immer testen, bevor du die Datei weitergibst."
+        ]
+      }
+    }
+  ]
+}

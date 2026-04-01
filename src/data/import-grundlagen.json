@@ -1,0 +1,63 @@
+{
+    "entries": [
+      {
+        "id": "import-grundlagen",
+        "title": "Import Grundlagen",
+        "shortDescription": "Übersicht über Importmöglichkeiten in Revit und die wichtigsten Dateiformate.",
+  
+        "video": {
+          "title": "Import Grundlagen",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Importieren vs. Verknüpfen (ganz wichtig!)",
+              "text": "Beim Importieren wird die Datei fest in dein Projekt eingebettet. Beim Verknüpfen bleibt die Datei extern und wird nur referenziert. Verknüpfen ist fast immer die bessere Wahl, da Änderungen automatisch übernommen werden können."
+            },
+            {
+              "title": "CAD-Dateien (DWG, DXF, DGN)",
+              "text": "Diese Formate kommen meist aus AutoCAD oder anderen CAD-Programmen. Sie werden für Grundrisse, Details oder Bestandspläne genutzt. Wichtig: Immer vorher bereinigen, sonst wird dein Projekt langsam."
+            },
+            {
+              "title": "Punktwolken (RCP, RCS)",
+              "text": "Punktwolken stammen aus Laserscans und zeigen reale Gebäude als Punkte im Raum. Sie werden für Bestandsaufnahmen und Modellierung genutzt."
+            },
+            {
+              "title": "IFC-Dateien",
+              "text": "IFC ist ein offenes BIM-Format für den Austausch zwischen verschiedenen Programmen (z. B. Revit, Allplan). Wird häufig bei Zusammenarbeit mit anderen Büros verwendet."
+            },
+            {
+              "title": "3D-Modelle (SKP, SAT, OBJ)",
+              "text": "Diese Formate kommen aus Programmen wie SketchUp oder anderen 3D-Tools. Sie werden genutzt, um Geometrie oder Modelle zu übernehmen."
+            },
+            {
+              "title": "Bilder (JPG, PNG, TIFF)",
+              "text": "Bilder werden für Pläne, Skizzen oder Referenzen genutzt. Sie dienen meist als Grundlage zum Nachzeichnen oder zur Orientierung."
+            },
+            {
+              "title": "PDF-Dateien",
+              "text": "PDFs können importiert werden, um Pläne oder Zeichnungen als Vorlage zu verwenden. Häufig werden sie nachgezeichnet."
+            },
+            {
+              "title": "Revit-Dateien (RVT, RFA)",
+              "text": "RVT-Dateien sind komplette Projekte, die verknüpft werden können. RFA-Dateien sind Familien, die in dein Projekt geladen werden."
+            },
+            {
+              "title": "Typische Probleme beim Import",
+              "text": "Falscher Maßstab, zu viele Linien, falsche Position oder schlechte Performance sind häufige Probleme. Deshalb ist eine saubere Vorbereitung der Dateien extrem wichtig."
+            }
+          ],
+  
+          "tips": [
+            "Nutze wenn möglich immer 'Verknüpfen' statt 'Importieren'.",
+            "Bereinige CAD-Dateien vor dem Import.",
+            "Achte auf den richtigen Maßstab.",
+            "Große Dateien können dein Projekt stark verlangsamen.",
+            "Teste importierte Daten immer direkt nach dem Laden."
+          ]
+        }
+      }
+    ]
+  }

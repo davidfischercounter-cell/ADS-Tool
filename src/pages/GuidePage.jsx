@@ -12,6 +12,19 @@ import zusammenarbeitData from "../data/zusammenarbeit-lokal.json";
 import zusammenarbeitAktivierenData from "../data/zusammenarbeit-aktivieren.json";
 import zentraldateiErstellenData from "../data/zentraldatei-erstellen.json";
 import lokaledateiErstellenData from "../data/lokale-datei-erstellen.json";
+import grundlagenFamData from "../data/grundlagenfam.json";
+import familienartenData from "../data/familienarten.json";
+import parameterData from "../data/parameter.json";
+import modellierungfamData from "../data/modellierungfam.json";
+import fenstertuerenfamData from "../data/fenstertuerenfam.json";
+import verschachtelungData from "../data/verschachtelung.json";
+import darstellungfamData from "../data/darstellungfam.json";
+import bibliothekData from "../data/bibliothek.json";
+import importData from "../data/import-grundlagen.json";
+import dwgimportData from "../data/dwg-import.json";
+import cadbereinigungData from "../data/cad-bereinigung.json";
+import ifcData from "../data/ifc.json";
+import ifceinstellungenData from "../data/ifc-export-einstellungen.json";
 
 const guideFiles = {
   "geschoss.json": geschossData,
@@ -25,6 +38,19 @@ const guideFiles = {
   "zusammenarbeit-aktivieren.json": zusammenarbeitAktivierenData,
   "zentraldatei-erstellen.json": zentraldateiErstellenData,
   "lokale-datei-erstellen.json": lokaledateiErstellenData,
+  "grundlagenfam.json": grundlagenFamData,
+  "familienarten.json": familienartenData,
+  "parameter.json": parameterData,
+  "modellierungfam.json": modellierungfamData,
+  "fenstertuerenfam.json": fenstertuerenfamData,
+  "verschachtelung.json": verschachtelungData,
+  "darstellungfam.json": darstellungfamData,
+  "bibliothek.json": bibliothekData,
+  "import-grundlagen.json": importData,
+  "dwg-import.json": dwgimportData,
+  "cad-bereinigung.json": cadbereinigungData,
+  "ifc.json": ifcData,
+  "ifc-export-einstellungen.json": ifceinstellungenData,
 };
 
 function GuidePage() {

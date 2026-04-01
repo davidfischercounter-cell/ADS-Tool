@@ -1,0 +1,45 @@
+{
+  "entries": [
+    {
+      "id": "familienarten",
+      "title": "Familienarten",
+      "shortDescription": "In Revit gibt es verschiedene Arten von Familien. Sie bestimmen, wie Bauteile erstellt, verändert und verwendet werden können.",
+
+
+      "content": {
+        "steps": [
+          {
+            "title": "Was ist überhaupt eine Familie?",
+            "text": "Eine Familie ist ein Bauteil in Revit, das du mehrfach verwenden kannst. Zum Beispiel ein Fenster, eine Tür oder ein Möbelstück. Du kannst Größe, Form und Eigenschaften anpassen, ohne jedes Mal neu zu zeichnen."
+          },
+          {
+            "title": "Systemfamilien (fest in Revit eingebaut)",
+            "text": "Systemfamilien sind bereits in Revit vorhanden und können nicht als eigene Datei gespeichert werden. Dazu gehören z. B. Wände, Decken oder Dächer. Du kannst sie anpassen, aber nicht wie normale Familien exportieren oder neu laden."
+          },
+          {
+            "title": "Ladbare Familien (Standard für die Praxis)",
+            "text": "Ladbare Familien werden als eigene Datei (.rfa) gespeichert. Dazu gehören z. B. Fenster, Türen oder Möbel. Diese Familien kannst du erstellen, speichern, wiederverwenden und in andere Projekte laden."
+          },
+          {
+            "title": "In-Place-Familien (direkt im Projekt erstellt)",
+            "text": "In-Place-Familien werden direkt im Projekt erstellt. Sie sind nur für dieses eine Projekt gedacht und können nicht wiederverwendet werden. Sie eignen sich für Sonderlösungen oder sehr spezielle Bauteile."
+          },
+          {
+            "title": "Wann benutze ich welche Familie?",
+            "text": "Systemfamilien nutzt du für grundlegende Bauteile wie Wände. Ladbare Familien solltest du für alles verwenden, was du mehrfach brauchst. In-Place-Familien nur dann, wenn es wirklich keine andere Lösung gibt."
+          },
+          {
+            "title": "Typischer Fehler",
+            "text": "Viele Anfänger nutzen zu oft In-Place-Familien. Das führt später zu Chaos im Projekt."
+          }
+        ],
+
+        "tips": [
+          "Nutze möglichst immer ladbare Familien – sie sind flexibel und wiederverwendbar.",
+          "Vermeide In-Place-Familien, wenn es nicht unbedingt nötig ist.",
+          "Wenn etwas oft im Projekt vorkommt, sollte es eine eigene Familie sein."
+        ]
+      }
+    }
+  ]
+}

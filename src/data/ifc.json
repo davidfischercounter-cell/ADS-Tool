@@ -1,0 +1,55 @@
+{
+    "entries": [
+      {
+        "id": "ifc",
+        "title": "IFC Import / Export",
+        "shortDescription": "IFC dient dem Austausch von BIM-Daten zwischen verschiedenen Programmen wie Revit, Allplan oder Archicad.",
+  
+        "video": {
+          "title": "IFC Grundlagen",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Was ist IFC?",
+              "text": "IFC (Industry Foundation Classes) ist ein offenes Dateiformat für den Austausch von Gebäudemodellen zwischen verschiedenen Softwarelösungen. Es wird im BIM-Prozess verwendet."
+            },
+            {
+              "title": "IFC importieren",
+              "text": "IFC-Dateien können in Revit geöffnet oder verknüpft werden. Beim Import wird die Datei umgewandelt, beim Verknüpfen bleibt sie extern. Verknüpfen ist meist die bessere Wahl."
+            },
+            {
+              "title": "Darstellung nach Import prüfen",
+              "text": "Nach dem Import können Bauteile anders aussehen als erwartet. Materialien, Kategorien oder Geometrie können abweichen. Deshalb immer alles kontrollieren."
+            },
+            {
+              "title": "IFC exportieren",
+              "text": "Beim Export werden deine Revit-Elemente in IFC-Kategorien umgewandelt. Wichtig ist, dass Bauteile korrekt modelliert und zugewiesen sind."
+            },
+            {
+              "title": "IFC-Zuordnung (Mapping)",
+              "text": "Revit-Elemente müssen richtig den IFC-Klassen zugeordnet sein (z. B. Wand = IfcWall). Falsche Zuordnung führt zu Problemen in anderen Programmen."
+            },
+            {
+              "title": "Export-Einstellungen nutzen",
+              "text": "Beim Export kannst du verschiedene Einstellungen wählen (z. B. Detaillierungsgrad oder Eigenschaften). Diese beeinflussen, wie die Datei in anderen Programmen gelesen wird."
+            },
+            {
+              "title": "Austausch testen",
+              "text": "Öffne exportierte IFC-Dateien testweise in einem Viewer oder anderen Programm, um zu prüfen, ob alles korrekt übertragen wurde."
+            }
+          ],
+  
+          "tips": [
+            "Verknüpfe IFC-Dateien statt sie direkt zu importieren.",
+            "Kontrolliere immer die Darstellung nach dem Import.",
+            "Saubere Modellierung ist die Grundlage für guten IFC-Export.",
+            "Achte auf korrekte IFC-Zuordnung (Mapping).",
+            "Teste deine IFC-Dateien vor der Weitergabe."
+          ]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,55 @@
+{
+    "entries": [
+      {
+        "id": "darstellung",
+        "title": "Darstellung",
+        "shortDescription": "So stellst du Familien in Revit korrekt und übersichtlich in Grundrissen, Schnitten und Ansichten dar.",
+  
+        "video": {
+          "title": "Darstellung in Familien",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "2D und 3D unterscheiden",
+              "text": "Die 3D-Geometrie ist nicht automatisch gut für Pläne geeignet. Für Grundrisse brauchst du oft eigene 2D-Darstellungen, damit alles sauber und verständlich aussieht."
+            },
+            {
+              "title": "Symbolische Linien nutzen",
+              "text": "Symbolische Linien sind speziell für die Darstellung in Plänen gedacht. Sie sind nur in bestimmten Ansichten sichtbar und sorgen für klare und normgerechte Grundrisse."
+            },
+            {
+              "title": "Detailstufen richtig einsetzen",
+              "text": "Revit unterscheidet zwischen Grob, Mittel und Fein. Nutze diese Stufen, um Details gezielt ein- oder auszublenden. So bleibt dein Modell übersichtlich und performant."
+            },
+            {
+              "title": "Sichtbarkeitsparameter verwenden",
+              "text": "Mit Ja/Nein-Parametern kannst du steuern, welche Elemente sichtbar sind. Das ist ideal für Varianten oder unterschiedliche Detailstufen."
+            },
+            {
+              "title": "Schnittdarstellung beachten",
+              "text": "Achte darauf, wie deine Familie im Schnitt dargestellt wird. Materialien, Schnittkanten und Linien müssen klar und lesbar sein."
+            },
+            {
+              "title": "Linienstärken und Kategorien",
+              "text": "Die Darstellung wird stark über Kategorien gesteuert. Nutze die richtigen Kategorien und Unterkategorien, damit Linienstärken automatisch korrekt sind."
+            },
+            {
+              "title": "Darstellung testen",
+              "text": "Prüfe deine Familie in verschiedenen Ansichten: Grundriss, Schnitt und 3D. Nur so stellst du sicher, dass sie überall korrekt dargestellt wird."
+            }
+          ],
+  
+          "tips": [
+            "Verlasse dich nicht nur auf 3D-Geometrie – nutze 2D-Elemente.",
+            "Symbolische Linien sind Pflicht für saubere Grundrisse.",
+            "Detailstufen sparen Performance und sorgen für Übersicht.",
+            "Sichtbarkeitsparameter helfen bei Varianten.",
+            "Teste deine Familie immer in mehreren Ansichten."
+          ]
+        }
+      }
+    ]
+  }

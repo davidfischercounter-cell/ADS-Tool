@@ -1,0 +1,55 @@
+{
+    "entries": [
+      {
+        "id": "bibliothek",
+        "title": "Bibliothek",
+        "shortDescription": "Eine gut strukturierte Familienbibliothek spart Zeit, verhindert Fehler und sorgt für einheitliche Projekte.",
+  
+        "video": {
+          "title": "Familienbibliothek richtig aufbauen",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Warum eine Bibliothek wichtig ist",
+              "text": "Ohne klare Struktur entstehen schnell doppelte oder fehlerhafte Familien. Eine gute Bibliothek sorgt dafür, dass alle im Büro mit denselben, geprüften Bauteilen arbeiten."
+            },
+            {
+              "title": "Saubere Ordnerstruktur",
+              "text": "Lege klare Kategorien an, z. B. Fenster, Türen, Möbel oder Details. So findet jeder schnell die richtige Familie und vermeidet Chaos."
+            },
+            {
+              "title": "Einheitliche Benennung",
+              "text": "Nutze klare und nachvollziehbare Namen. Beispiel: 'Fenster_120x120_2Flügel'. Vermeide Namen wie 'Neu1' oder 'Test_final_final'."
+            },
+            {
+              "title": "Nur geprüfte Familien verwenden",
+              "text": "Nicht jede Familie gehört in die Bibliothek. Nur saubere, getestete und funktionierende Familien sollten aufgenommen werden."
+            },
+            {
+              "title": "Versionen verwalten",
+              "text": "Wenn du eine Familie änderst, solltest du klar kennzeichnen, welche Version aktuell ist. So vermeidest du, dass alte oder falsche Varianten verwendet werden."
+            },
+            {
+              "title": "Familien wiederverwenden",
+              "text": "Bevor du etwas neu erstellst, prüfe immer, ob es bereits eine passende Familie gibt. Das spart enorm viel Zeit."
+            },
+            {
+              "title": "Bibliothek regelmäßig pflegen",
+              "text": "Entferne veraltete oder fehlerhafte Familien und halte die Struktur aktuell. Eine ungepflegte Bibliothek wird schnell unbrauchbar."
+            }
+          ],
+  
+          "tips": [
+            "Klare Struktur spart dir täglich Zeit.",
+            "Einheitliche Namen verhindern Missverständnisse.",
+            "Lieber eine gute Familie als fünf schlechte.",
+            "Pflege deine Bibliothek regelmäßig.",
+            "Wenn jeder sein eigenes Ding macht, entsteht Chaos – Standards sind entscheidend."
+          ]
+        }
+      }
+    ]
+  }

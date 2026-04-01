@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "verschachtelung",
+      "title": "Verschachtelung",
+      "shortDescription": "Verschachtelte Familien ermöglichen den Aufbau komplexer und wiederverwendbarer Bauteile in Revit.",
+
+      "video": {
+        "title": "Verschachtelte Familien erklärt",
+        "url": ""
+      },
+
+      "content": {
+        "steps": [
+          {
+            "title": "Was bedeutet Verschachtelung?",
+            "text": "Verschachtelung bedeutet, dass du eine Familie in eine andere Familie einfügst. So kannst du komplexe Bauteile aus mehreren Einzelteilen zusammensetzen."
+          },
+          {
+            "title": "Warum Verschachtelung sinnvoll ist",
+            "text": "Du kannst Bauteile wiederverwenden, Änderungen zentral steuern und deine Familien sauber strukturieren. Das spart Zeit und verhindert Chaos."
+          },
+          {
+            "title": "Typisches Beispiel: Fensterflügel",
+            "text": "Ein Fenster besteht aus Rahmen und Flügeln. Statt alles in einer Familie zu bauen, erstellst du den Flügel als eigene Familie und fügst ihn in die Hauptfamilie ein."
+          },
+          {
+            "title": "Familie laden und platzieren",
+            "text": "Die untergeordnete Familie wird in die Hauptfamilie geladen und dort wie ein normales Bauteil platziert. Danach kannst du sie ausrichten und verriegeln."
+          },
+          {
+            "title": "Parameter durchreichen (ganz wichtig!)",
+            "text": "Damit du verschachtelte Familien steuern kannst, müssen Parameter von der Unterfamilie an die Hauptfamilie weitergegeben werden. Ohne das kannst du sie später nicht kontrollieren."
+          },
+          {
+            "title": "Gemeinsame Parameter für Beschriftung",
+            "text": "Wenn verschachtelte Elemente beschriftet werden sollen, müssen gemeinsame Parameter verwendet werden. Sonst erscheinen sie nicht in Tags oder Listen."
+          },
+          {
+            "title": "Saubere Struktur beibehalten",
+            "text": "Übertreibe es nicht mit Verschachtelung. Zu viele Ebenen machen Familien unübersichtlich und schwer wartbar."
+          }
+        ],
+
+        "tips": [
+          "Verschachtelung ist ideal für wiederkehrende Bauteile wie Flügel oder Griffe.",
+          "Parameter müssen immer durchgereicht werden, sonst kannst du nichts steuern.",
+          "Nutze gemeinsame Parameter für alles, was beschriftet werden soll.",
+          "Halte die Struktur übersichtlich – nicht alles verschachteln.",
+          "Teste immer, ob die Steuerung in der Hauptfamilie funktioniert."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+    "entries": [
+      {
+        "id": "modellierung",
+        "title": "Modellierung",
+        "shortDescription": "So modellierst du Familien in Revit sauber, stabil und flexibel.",
+  
+        "video": {
+          "title": "Modellierung in Familien",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Erst Struktur, dann Geometrie",
+              "text": "Beginne niemals direkt mit dem Modellieren. Lege zuerst Referenzebenen fest, definiere Maße und Parameter. Die Geometrie kommt immer erst danach."
+            },
+            {
+              "title": "Geometrie immer an Referenzebenen ausrichten",
+              "text": "Jede Extrusion, jeder Sweep und jede Form muss an Referenzebenen ausgerichtet sein. Nur so bleibt deine Familie kontrollierbar und reagiert korrekt auf Änderungen."
+            },
+            {
+              "title": "Extrusion, Sweep und Blend richtig einsetzen",
+              "text": "Extrusionen sind der Standard für einfache Formen. Sweeps nutzt du für Profile entlang eines Pfades (z. B. Rahmen). Blends helfen bei Übergängen zwischen zwei Formen."
+            },
+            {
+              "title": "Alles verriegeln (Lock!)",
+              "text": "Wenn Geometrie nicht verriegelt ist, bewegt sie sich unkontrolliert oder bleibt stehen, wenn sich Maße ändern. Deshalb: Immer sauber verriegeln."
+            },
+            {
+              "title": "Familie regelmäßig testen",
+              "text": "Ändere ständig Parameterwerte während der Modellierung. Wenn sich etwas falsch verhält oder verschiebt, ist deine Familie nicht sauber aufgebaut."
+            },
+            {
+              "title": "Sauber arbeiten statt kompliziert",
+              "text": "Viele kleine, klare Bauteile sind besser als eine große komplizierte Geometrie. Komplexität macht Familien instabil und schwer wartbar."
+            },
+            {
+              "title": "Detailstufen nutzen",
+              "text": "Nicht jede Geometrie muss immer sichtbar sein. Nutze Grob, Mittel und Fein, um unnötige Details auszublenden und die Performance zu verbessern."
+            }
+          ],
+  
+          "tips": [
+            "Wenn sich deine Familie zerlegt, liegt es fast immer an fehlenden Locks.",
+            "Nie Geometrie frei im Raum platzieren – immer an Referenzebenen binden.",
+            "Teste extreme Werte, um Fehler früh zu finden.",
+            "Halte deine Geometrie so einfach wie möglich.",
+            "Detailstufen sparen dir später enorm viel Performance."
+          ]
+        }
+      }
+    ]
+  }

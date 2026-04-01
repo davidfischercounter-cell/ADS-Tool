@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "id": "fenstertuerenfam",
+      "title": "Fenster und Türen",
+      "shortDescription": "Aufbau und Modellierung von Fenstern und Türen als saubere, parametrisierte Familien.",
+
+
+      "content": {
+        "steps": [
+          {
+            "title": "Grundaufbau verstehen",
+            "text": "Fenster und Türen bestehen immer aus mehreren Teilen: Öffnung, Rahmen und oft bewegliche Elemente wie Flügel. Diese Teile sollten logisch getrennt aufgebaut werden."
+          },
+          {
+            "title": "Öffnung korrekt erstellen",
+            "text": "Die Wandöffnung wird über die Familie gesteuert. Achte darauf, dass Breite und Höhe sauber über Parameter definiert sind, damit sich das Element flexibel anpassen lässt."
+          },
+          {
+            "title": "Rahmen sauber modellieren",
+            "text": "Der Rahmen wird meist über Extrusionen oder Sweeps erstellt. Wichtig: immer an Referenzebenen ausrichten und sauber verriegeln."
+          },
+          {
+            "title": "Flügel als eigene (verschachtelte) Familie",
+            "text": "Für bewegliche Teile wie Fensterflügel solltest du separate Familien verwenden. Diese werden in die Hauptfamilie geladen und dort gesteuert.",
+            "link": "verschachtelung"
+          },
+          {
+            "title": "Parameter für Maße und Varianten",
+            "text": "Breite, Höhe und Rahmenstärke sollten immer über Parameter steuerbar sein. Zusätzlich kannst du Varianten (z. B. ein- oder zweiflügelig) über Ja/Nein-Parameter lösen."
+          },
+          {
+            "title": "2D-Darstellung im Grundriss",
+            "text": "Nutze symbolische Linien für die Darstellung im Grundriss. Die 3D-Geometrie allein reicht nicht aus, um saubere Pläne zu erzeugen."
+          },
+          {
+            "title": "Familie testen",
+            "text": "Teste verschiedene Größen und Varianten. Wenn sich etwas verschiebt oder kaputtgeht, ist die Familie nicht sauber aufgebaut."
+          }
+        ],
+
+        "tips": [
+          "Baue Flügel immer als eigene Familien – das macht alles deutlich flexibler.",
+          "Nutze symbolische Linien für saubere Grundrisse.",
+          "Vermeide unnötig komplexe Geometrie.",
+          "Teste alle Varianten (einflügelig, zweiflügelig, große/kleine Maße).",
+          "Wenn etwas nicht funktioniert, liegt es fast immer an fehlenden Referenzen oder Parametern."
+        ]
+      }
+    }
+  ]
+}

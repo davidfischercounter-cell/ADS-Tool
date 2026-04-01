@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "parameter",
+      "title": "Parameter",
+      "shortDescription": "Parameter steuern Größe, Verhalten und Informationen von Familien in Revit.",
+
+      "video": {
+        "title": "Parameter einfach erklärt",
+        "url": ""
+      },
+
+      "content": {
+        "steps": [
+          {
+            "title": "Was ist ein Parameter?",
+            "text": "Ein Parameter ist ein Wert, der etwas in deiner Familie steuert. Zum Beispiel die Breite eines Fensters, die Höhe einer Tür oder ob etwas sichtbar ist."
+          },
+          {
+            "title": "Typparameter (für alle gleich)",
+            "text": "Typparameter gelten für alle Elemente eines Typs. Wenn du einen Wert änderst, ändern sich alle gleichen Bauteile im Projekt. Beispiel: Alle Fenster vom Typ 120x120 werden gleichzeitig angepasst."
+          },
+          {
+            "title": "Exemplarparameter (individuell)",
+            "text": "Exemplarparameter gelten nur für ein einzelnes Element. Du kannst damit einzelne Bauteile individuell anpassen, ohne andere zu verändern."
+          },
+          {
+            "title": "Gemeinsame Parameter (für Beschriftungen)",
+            "text": "Gemeinsame Parameter werden verwendet, wenn du Werte beschriften oder auswerten willst (z. B. in Tags oder Listen). Normale Parameter funktionieren dort oft nicht."
+          },
+          {
+            "title": "Parameter mit Geometrie verbinden",
+            "text": "Ein Parameter bringt nur etwas, wenn er auch etwas steuert. Verbinde Parameter mit Bemaßungen oder Sichtbarkeit, damit sie wirklich Einfluss auf deine Familie haben."
+          },
+          {
+            "title": "Formeln nutzen (Automatik einbauen)",
+            "text": "Mit Formeln kannst du Beziehungen erstellen. Beispiel: Höhe = Breite / 2. So bleibt deine Familie automatisch korrekt, egal welche Werte du eingibst."
+          },
+          {
+            "title": "Sichtbarkeitsparameter (Ja/Nein)",
+            "text": "Mit Ja/Nein-Parametern kannst du Teile ein- oder ausblenden. Das ist besonders hilfreich für Varianten (z. B. mit oder ohne Griff)."
+          }
+        ],
+
+        "tips": [
+          "Überlege immer zuerst: Typ oder Exemplar? Das spart dir später viel Ärger.",
+          "Wenn ein Parameter nichts steuert, ist er nutzlos.",
+          "Nutze klare Namen wie 'Breite', 'Höhe', 'Rahmenstärke'.",
+          "Gemeinsame Parameter sind Pflicht für Beschriftungen.",
+          "Formeln helfen dir, Fehler automatisch zu vermeiden."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+    "entries": [
+      {
+        "id": "dwg-import",
+        "title": "DWG Import",
+        "shortDescription": "So importierst oder verknüpfst du DWG-Dateien korrekt in Revit, ohne Maßstabs- oder Performanceprobleme.",
+  
+        "video": {
+          "title": "DWG Import in Revit",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "DWG immer verknüpfen statt importieren",
+              "text": "Nutze in Revit immer 'CAD verknüpfen' statt 'Importieren'. So bleibt die Datei extern und kann bei Änderungen aktualisiert werden. Importieren sollte nur im Ausnahmefall verwendet werden."
+            },
+            {
+              "title": "Richtigen Einfügepunkt wählen",
+              "text": "Beim Einfügen hast du verschiedene Optionen wie 'Ursprung zu Ursprung' oder 'Zentrum zu Zentrum'. Für saubere Projekte wird meist 'Ursprung zu Ursprung' verwendet."
+            },
+            {
+              "title": "Einheiten korrekt einstellen",
+              "text": "Stelle sicher, dass die Einheiten stimmen (z. B. Meter oder Millimeter). Falsche Einheiten führen zu komplett falschen Maßstäben im Projekt."
+            },
+            {
+              "title": "Richtige Ansicht wählen",
+              "text": "Importiere DWGs immer in die passende Ansicht (z. B. Grundriss oder Schnitt). Eine DWG in der falschen Ansicht kann zu Problemen bei der Darstellung führen."
+            },
+            {
+              "title": "Layer kontrollieren",
+              "text": "Nach dem Import solltest du die Layer überprüfen. Oft sind zu viele unnötige Linien vorhanden, die dein Projekt unübersichtlich machen."
+            },
+            {
+              "title": "Position und Ausrichtung prüfen",
+              "text": "Nach dem Einfügen immer kontrollieren, ob die DWG richtig liegt. Häufige Probleme sind verschobene oder gedrehte Dateien."
+            },
+            {
+              "title": "DWG als Referenz nutzen",
+              "text": "Die DWG sollte nur als Grundlage dienen. Zeichne deine Revit-Elemente sauber darüber und vermeide es, direkt mit der DWG zu arbeiten."
+            }
+          ],
+  
+          "tips": [
+            "Immer 'Verknüpfen' statt 'Importieren' verwenden.",
+            "Nutze 'Ursprung zu Ursprung' für saubere Positionierung.",
+            "Achte auf die Einheiten – das ist der häufigste Fehler.",
+            "Bereinige DWGs vor dem Import.",
+            "DWG nur als Vorlage verwenden, nicht als fertige Lösung."
+          ]
+        }
+      }
+    ]
+  }

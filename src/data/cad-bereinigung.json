@@ -1,0 +1,59 @@
+{
+    "entries": [
+      {
+        "id": "cad-bereinigung",
+        "title": "CAD Bereinigung",
+        "shortDescription": "So bereitest du CAD-Dateien optimal vor, damit dein Revit-Projekt sauber und performant bleibt.",
+  
+        "video": {
+          "title": "CAD Bereinigung vor Import",
+          "url": ""
+        },
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Warum Bereinigung wichtig ist",
+              "text": "Unbereinigte CAD-Dateien enthalten oft tausende unnötige Linien, Layer und Daten. Das macht dein Revit-Projekt langsam und unübersichtlich."
+            },
+            {
+              "title": "Unnötige Layer löschen",
+              "text": "Entferne alle Layer, die du nicht brauchst (z. B. Texte, Bemaßungen, Schraffuren). Je weniger Layer, desto übersichtlicher wird dein Projekt."
+            },
+            {
+              "title": "Überflüssige Elemente entfernen",
+              "text": "Lösche alles, was nicht gebraucht wird: Blöcke, Texte, Möbel oder Details. Übrig bleiben sollte nur das, was du wirklich modellieren willst."
+            },
+            {
+              "title": "Linien vereinfachen",
+              "text": "Viele CAD-Dateien bestehen aus tausenden kleinen Linien. Versuche diese zu vereinfachen oder zusammenzufassen, um die Performance zu verbessern."
+            },
+            {
+              "title": "Maßstab und Einheiten prüfen",
+              "text": "Kontrolliere, ob die Datei in der richtigen Einheit gezeichnet ist (z. B. Meter oder Millimeter). Falsche Einheiten führen zu Problemen beim Import."
+            },
+            {
+              "title": "Datei bereinigen (PURGE)",
+              "text": "Nutze in AutoCAD den Befehl 'PURGE', um ungenutzte Elemente zu entfernen. Das reduziert die Dateigröße erheblich."
+            },
+            {
+              "title": "Datei prüfen (AUDIT)",
+              "text": "Mit dem Befehl 'AUDIT' kannst du Fehler in der Datei finden und reparieren. Das verhindert Probleme beim Import in Revit."
+            },
+            {
+              "title": "Datei speichern und testen",
+              "text": "Speichere die bereinigte Datei und teste sie in Revit. Wenn sie sauber geladen wird und performant ist, hast du alles richtig gemacht."
+            }
+          ],
+  
+          "tips": [
+            "Je sauberer die CAD-Datei, desto besser läuft dein Revit-Projekt.",
+            "Entferne alles, was du nicht brauchst – wirklich alles.",
+            "PURGE und AUDIT sollten Standard sein.",
+            "Zu viele Linien zerstören die Performance.",
+            "Bereinigung spart dir später extrem viel Zeit."
+          ]
+        }
+      }
+    ]
+  }
