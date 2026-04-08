@@ -25,6 +25,7 @@ import dwgimportData from "../data/dwg-import.json";
 import cadbereinigungData from "../data/cad-bereinigung.json";
 import ifcData from "../data/ifc.json";
 import ifceinstellungenData from "../data/ifc-export-einstellungen.json";
+import punktwolkeImportRevitData from "../data/punktwolke-import-in-revit.json";
 
 const guideFiles = {
   "geschoss.json": geschossData,
@@ -51,6 +52,7 @@ const guideFiles = {
   "cad-bereinigung.json": cadbereinigungData,
   "ifc.json": ifcData,
   "ifc-export-einstellungen.json": ifceinstellungenData,
+  "punktwolke-import-in-revit.json": punktwolkeImportRevitData,
 };
 
 function GuidePage() {

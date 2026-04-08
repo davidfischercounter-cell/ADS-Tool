@@ -79,10 +79,10 @@ export const guides = [
   },
 
   {
-    id: "punktwolke Import Revit",
+    id: "punktwolke-import-in-revit",
     title: "Punktwolke Import Revit",
     category: "punktwolken",
-    content: "So importierst du eine Punktwolke in Revit...",
+    file: "punktwolke-import-in-revit.json",
   },
 
   {
@@ -215,7 +215,6 @@ export const guides = [
     category: "importexport",
     file: "ifc-export-einstellungen.json",
   },
-
 
   {
     id: "export",

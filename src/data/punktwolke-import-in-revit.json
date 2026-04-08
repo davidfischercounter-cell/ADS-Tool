@@ -1,0 +1,60 @@
+{
+    "entries": [
+      {
+        "id": "punktwolke-import-in-revit",
+        "title": "Punktwolke Import in Revit",
+        "shortDescription": "Anleitung zum Verknüpfen und korrekten Platzieren einer Punktwolke in Revit.",
+  
+  
+        "content": {
+          "steps": [
+            {
+              "title": "Exportdatei vorbereiten",
+              "text": "Stelle sicher, dass die Punktwolke zuvor in Recap sauber aufbereitet und als RCS oder RCP exportiert wurde. Für Revit ist eine saubere Ausgangsdatei entscheidend."
+            },
+            {
+              "title": "Revit-Modell öffnen",
+              "text": "Öffne das Projekt, in das die Punktwolke eingebunden werden soll. Prüfe vorher, ob Geschosse, Ansichten und gegebenenfalls Projektkoordinaten sinnvoll vorbereitet sind."
+            },
+            {
+              "title": "Punktwolke verknüpfen",
+              "text": "Gehe in Revit auf die Funktion zum Einfügen oder Verknüpfen einer Punktwolke und wähle die exportierte Datei aus. Die Punktwolke sollte grundsätzlich verknüpft und nicht als feste Geometrie behandelt werden."
+            },
+            {
+              "title": "Positionierungsmethode wählen",
+              "text": "Wähle die passende Positionierungsmethode für dein Projekt. Je nach Vorbereitung der Punktwolke kann das Ursprung zu Ursprung, Auto - Gemeinsame Koordinaten oder manuelle Positionierung sein."
+            },
+            {
+              "title": "Lage direkt kontrollieren",
+              "text": "Prüfe sofort nach dem Import, ob die Punktwolke an der richtigen Stelle liegt. Kontrolliere bekannte Achsen, Wandverläufe, Höhen oder markante Gebäudepunkte."
+            },
+            {
+              "title": "Ansichten sinnvoll nutzen",
+              "text": "Kontrolliere die Punktwolke in Grundrissen, Schnitten, Ansichten und 3D-Ansichten. Manche Lagefehler fallen erst in einer bestimmten Ansicht wirklich auf."
+            },
+            {
+              "title": "Darstellung anpassen",
+              "text": "Passe Sichtbarkeit, Zuschnitt und Darstellung der Punktwolke an, damit sie beim Modellieren nicht stört. Besonders bei großen Datenmengen ist eine sinnvolle Ansichtseinstellung wichtig."
+            },
+            {
+              "title": "Ausrichtung und Koordinaten prüfen",
+              "text": "Wenn die Punktwolke nicht korrekt liegt, prüfe Ausrichtung, Höhe und Bezug zum Projekt. Fehler entstehen oft durch falsche Koordinaten oder eine ungeeignete Positionierungsoption."
+            },
+            {
+              "title": "Modellierung auf Basis der Punktwolke starten",
+              "text": "Sobald die Punktwolke korrekt liegt, kann sie als Grundlage für Wände, Decken, Öffnungen, Ebenen und weitere Bauteile genutzt werden."
+            }
+          ],
+  
+          "tips": [
+            "Punktwolken in Revit immer verknüpfen und nicht unnötig aufblasen",
+            "Die Lage direkt nach dem Import kontrollieren, bevor weitergearbeitet wird",
+            "Bei großen Punktwolken mit Zuschnitten und passenden Ansichten arbeiten",
+            "Koordinatenfehler lieber sofort lösen als später mit Gewalt auszugleichen",
+            "RCS ist oft die direktere und sauberere Lösung für Revit",
+            "Nicht nur im Grundriss prüfen, sondern auch in Schnitt und 3D"
+          ]
+        }
+      }
+    ]
+  }

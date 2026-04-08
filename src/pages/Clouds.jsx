@@ -14,7 +14,7 @@ function Clouds() {
             Punktwolken in Recap
           </Link>
 
-          <Link to="/guide/punktwolke Import Revit" className="tile">
+          <Link to="/guide/punktwolke-import-in-revit" className="tile">
             Punktwolke Import Revit
           </Link>
 
@@ -25,8 +25,6 @@ function Clouds() {
           <Link to="/guide/punktwolke-export" className="tile">
             Punktwolke Export
           </Link>
-
-
         </div>
       </div>
     </div>
