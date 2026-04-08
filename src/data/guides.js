@@ -124,8 +124,6 @@ export const guides = [
 
   //Familien
 
-  // Familien
-
   {
     id: "familienarten",
     title: "Familienarten",
@@ -218,12 +216,6 @@ export const guides = [
     file: "ifc-export-einstellungen.json",
   },
 
-  {
-    id: "punktwolken",
-    title: "Punktwolken",
-    category: "importexport",
-    file: "punktwolken.json",
-  },
 
   {
     id: "export",
