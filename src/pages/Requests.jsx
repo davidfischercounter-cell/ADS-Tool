@@ -9,8 +9,13 @@ function Requests() {
 
   useEffect(() => {
     const savedRequests = JSON.parse(localStorage.getItem("requests")) || [];
-    setRequests(savedRequests.reverse());
+    setRequests(savedRequests);
   }, []);
+
+  const saveRequests = (updatedRequests) => {
+    localStorage.setItem("requests", JSON.stringify(updatedRequests));
+    setRequests(updatedRequests);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,11 +33,8 @@ function Requests() {
       status: "offen",
     };
 
-    const existingRequests = JSON.parse(localStorage.getItem("requests")) || [];
-    const updatedRequests = [newRequest, ...existingRequests];
-
-    localStorage.setItem("requests", JSON.stringify(updatedRequests));
-    setRequests(updatedRequests);
+    const updatedRequests = [newRequest, ...requests];
+    saveRequests(updatedRequests);
     setOpenRequestId(newRequest.id);
 
     setTitle("");
@@ -42,6 +44,97 @@ function Requests() {
 
   const toggleRequest = (id) => {
     setOpenRequestId((prev) => (prev === id ? null : id));
+  };
+
+  const toggleStatus = (id) => {
+    const updatedRequests = requests.map((request) =>
+      request.id === id
+        ? {
+            ...request,
+            status: request.status === "offen" ? "erledigt" : "offen",
+          }
+        : request
+    );
+
+    saveRequests(updatedRequests);
+  };
+
+  const deleteRequest = (id) => {
+    const updatedRequests = requests.filter((request) => request.id !== id);
+    saveRequests(updatedRequests);
+
+    if (openRequestId === id) {
+      setOpenRequestId(null);
+    }
+  };
+
+  const offeneRequests = requests.filter(
+    (request) => request.status === "offen"
+  );
+  const erledigteRequests = requests.filter(
+    (request) => request.status === "erledigt"
+  );
+
+  const renderRequestList = (list) => {
+    if (list.length === 0) {
+      return <p className="request-empty">Keine Einträge vorhanden.</p>;
+    }
+
+    return (
+      <div className="request-list">
+        {list.map((request) => (
+          <div
+            key={request.id}
+            className={`request-item ${
+              request.status === "erledigt" ? "request-item-done" : ""
+            }`}
+          >
+            <button
+              type="button"
+              className="request-list-button"
+              onClick={() => toggleRequest(request.id)}
+            >
+              <span>{request.title}</span>
+              <span
+                className={`request-badge ${
+                  request.status === "erledigt"
+                    ? "request-badge-done"
+                    : "request-badge-open"
+                }`}
+              >
+                {request.status}
+              </span>
+            </button>
+
+            {openRequestId === request.id && (
+              <div className="request-item-content">
+                <p>{request.description}</p>
+
+                <div className="request-item-actions">
+                  <button
+                    type="button"
+                    className="request-action-button"
+                    onClick={() => toggleStatus(request.id)}
+                  >
+                    {request.status === "offen"
+                      ? "Als erledigt markieren"
+                      : "Wieder auf offen setzen"}
+                  </button>
+
+                  <button
+                    type="button"
+                    className="request-action-button request-action-delete"
+                    onClick={() => deleteRequest(request.id)}
+                  >
+                    Löschen
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    );
   };
 
   return (
@@ -62,8 +155,11 @@ function Requests() {
 
           <form className="request-form-modern" onSubmit={handleSubmit}>
             <div className="request-group">
-              <label className="request-label">Titel der Anfrage</label>
+              <label className="request-label" htmlFor="request-title">
+                Titel der Anfrage
+              </label>
               <input
+                id="request-title"
                 type="text"
                 className="request-control"
                 placeholder="z. B. IFC Export nach Allplan"
@@ -73,8 +169,11 @@ function Requests() {
             </div>
 
             <div className="request-group">
-              <label className="request-label">Beschreibung</label>
+              <label className="request-label" htmlFor="request-description">
+                Beschreibung
+              </label>
               <textarea
+                id="request-description"
                 className="request-control request-control-textarea"
                 placeholder="Beschreibe kurz das Problem oder was ergänzt werden soll..."
                 value={description}
@@ -94,29 +193,12 @@ function Requests() {
 
         <section className="request-list-shell">
           <h2 className="request-list-title">Offene Anfragen</h2>
+          {renderRequestList(offeneRequests)}
+        </section>
 
-          {requests.length === 0 ? (
-            <p className="request-empty">Noch keine Anfragen vorhanden.</p>
-          ) : (
-            <div className="request-list">
-              {requests.map((request) => (
-                <div key={request.id} className="request-item">
-                  <button
-                    className="request-list-button"
-                    onClick={() => toggleRequest(request.id)}
-                  >
-                    {request.title}
-                  </button>
-
-                  {openRequestId === request.id && (
-                    <div className="request-item-content">
-                      <p>{request.description}</p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          )}
+        <section className="request-list-shell">
+          <h2 className="request-list-title">Erledigte Anfragen</h2>
+          {renderRequestList(erledigteRequests)}
         </section>
       </div>
     </div>

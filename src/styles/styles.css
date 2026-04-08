@@ -208,6 +208,10 @@ body {
   background: #ffffff;
 }
 
+.request-item-done {
+  opacity: 0.9;
+}
+
 .request-list-button {
   width: 100%;
   border: none;
@@ -229,11 +233,29 @@ body {
   background: #f8f5ef;
 }
 
-.request-list-category {
-  font-size: 13px;
-  font-weight: 600;
-  color: #b7a37a;
+.request-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 86px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
   white-space: nowrap;
+}
+
+.request-badge-open {
+  background: #f8f5ef;
+  color: #9b7b2f;
+  border: 1px solid #dcc79b;
+}
+
+.request-badge-done {
+  background: #f3f3f3;
+  color: #6d6d6d;
+  border: 1px solid #d6d6d6;
 }
 
 .request-item-content {
@@ -246,6 +268,41 @@ body {
   margin: 16px 0 0;
   color: #555555;
   line-height: 1.6;
+}
+
+.request-item-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.request-action-button {
+  height: 42px;
+  padding: 0 16px;
+  border: 2px solid #b7a37a;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #444444;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.request-action-button:hover {
+  background: #f8f5ef;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+}
+
+.request-action-delete {
+  border-color: #c98f8f;
+  color: #9b4d4d;
+}
+
+.request-action-delete:hover {
+  background: #fcf3f3;
 }
 
 @media (max-width: 768px) {
@@ -263,8 +320,16 @@ body {
     align-items: flex-start;
   }
 
-  .request-list-category {
+  .request-badge {
     white-space: normal;
+  }
+
+  .request-item-actions {
+    flex-direction: column;
+  }
+
+  .request-action-button {
+    width: 100%;
   }
 }
 
