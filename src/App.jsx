@@ -2,7 +2,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout.jsx";
-import "./styles.css";
+import "./styles/styles.css";
 
 import BBQTool from "./pages/BBQTool.jsx";
 import BBQReport from "./pages/BBQReport.jsx";
@@ -25,28 +25,31 @@ import SearchResults from "./pages/SearchResults.jsx";
 function App() {
   return (
     <>
-    <ScrollToTop/>
-    
-    <Routes>
-      <Route element={<Layout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/revit" element={<Revit />} />
-        <Route path="/solutions" element={<Solutions />} />
-        <Route path="/requests" element={<Requests />} />
-        <Route path="/clouds" element={<Clouds />} />
-        <Route path="/bbq" element={<BBQTool />} />
-        <Route path="/bbq-report" element={<BBQReport />} />
+      <ScrollToTop />
 
-        <Route path="/revit/modellierung" element={<RevitModellierung />} />
-        <Route path="/revit/familien" element={<RevitFamilien />} />
-        <Route path="/revit/import" element={<RevitImport />} />
-        <Route path="/revit/zusammenarbeit" element={<RevitZusammenarbeit />} />
-        <Route path="/revit/darstellung" element={<RevitDarstellung />} />
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/revit" element={<Revit />} />
+          <Route path="/solutions" element={<Solutions />} />
+          <Route path="/requests" element={<Requests />} />
+          <Route path="/clouds" element={<Clouds />} />
+          <Route path="/bbq" element={<BBQTool />} />
+          <Route path="/bbq-report" element={<BBQReport />} />
 
-        <Route path="/guide/:id" element={<GuidePage />} />
-        <Route path="/search" element={<SearchResults />} />
-      </Route>
-    </Routes>
+          <Route path="/revit/modellierung" element={<RevitModellierung />} />
+          <Route path="/revit/familien" element={<RevitFamilien />} />
+          <Route path="/revit/import" element={<RevitImport />} />
+          <Route
+            path="/revit/zusammenarbeit"
+            element={<RevitZusammenarbeit />}
+          />
+          <Route path="/revit/darstellung" element={<RevitDarstellung />} />
+
+          <Route path="/guide/:id" element={<GuidePage />} />
+          <Route path="/search" element={<SearchResults />} />
+        </Route>
+      </Routes>
     </>
   );
 }
