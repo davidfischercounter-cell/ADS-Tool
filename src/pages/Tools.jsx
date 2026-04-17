@@ -23,7 +23,21 @@ function Tools() {
             GRZ / GFZ
           </Link>
 
-          <div className="tile">Wohnfläche</div>
+          <Link to="/tools/baunvo" className="tile">
+            BauNVO
+          </Link>
+
+          <Link to="/tools/lbo-finder" className="tile">
+            LBO Finder
+          </Link>
+
+          <Link to="/tools/baugb" className="tile">
+            BauGB
+          </Link>
+
+          <Link to="/tools/bauvorlagen-darstellung" className="tile">
+            Bauvorlagen & Darstellung
+          </Link>
         </div>
       </div>
     </div>
