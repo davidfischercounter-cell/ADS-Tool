@@ -20,6 +20,9 @@ function Home() {
         <Link to="/requests" className="tile">
           Anfragen
         </Link>
+        <Link to="/tools" className="tile">
+          Tools
+        </Link>
       </div>
     </div>
   );
