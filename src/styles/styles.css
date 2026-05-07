@@ -715,3 +715,89 @@ body {
     font-size: 22px;
   }
 }
+
+/* =========================
+   CONTENT PAGE FIX
+   Für Inhaltsseiten mit Text, Tabellen und Cards
+========================= */
+
+.content-page {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+  box-sizing: border-box;
+}
+
+.content-page .page-banner {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 30px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-page .page-banner h1 {
+  text-align: center;
+}
+
+.content-page .page-line {
+  width: 100%;
+  max-width: 100%;
+  margin: 18px auto 0;
+}
+
+.content-page .content-card {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 28px;
+  box-sizing: border-box;
+}
+
+/* Tabelle innerhalb Inhaltsseiten sauber breit halten */
+
+.content-page .brand-table-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.content-page .brand-table-real {
+  width: 100%;
+  min-width: 980px;
+  table-layout: fixed;
+}
+
+/* Etwas bessere Tabellenaufteilung */
+
+.brand-table-real th:first-child,
+.brand-table-real td:first-child {
+  width: 18%;
+}
+
+.brand-table-real th:not(:first-child),
+.brand-table-real td:not(:first-child) {
+  width: 20.5%;
+}
+
+/* Damit Text nicht aus den Zellen läuft */
+
+.brand-table-real th,
+.brand-table-real td {
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Mobile bleibt horizontal scrollbar, nicht zerquetscht */
+
+@media (max-width: 900px) {
+  .content-page .brand-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .content-page .brand-table-real {
+    min-width: 980px;
+  }
+}
