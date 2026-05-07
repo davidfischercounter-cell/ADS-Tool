@@ -3,7 +3,7 @@ import "../styles/styles.css";
 
 function BrandschutzBaustoffklassen() {
   return (
-    <div className="dashboard">
+    <div className="dashboard brandschutz-page">
       <div className="page-banner">
         <h1>Baustoffklassen</h1>
         <div className="page-line"></div>
