@@ -945,3 +945,161 @@ body {
     font-size: 30px;
   }
 }
+
+/* =========================
+   BRANDSCHUTZ BMA / BWA
+========================= */
+
+.bma-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.bma-card {
+  position: relative;
+  padding: 26px;
+  border: 2px solid #e2d8c4;
+  border-radius: 22px;
+  background: #fffdf9;
+  box-sizing: border-box;
+}
+
+.bma-card-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 74px;
+  height: 42px;
+  margin-bottom: 16px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: #444444;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.bma-card h3 {
+  margin: 0 0 14px;
+  font-size: 24px;
+  color: #444444;
+}
+
+.bma-card p {
+  margin: 0 0 16px;
+}
+
+.bma-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.bma-card li {
+  margin-bottom: 8px;
+}
+
+.bma-card-alert {
+  border-color: #c98f8f;
+}
+
+.bma-card-alert .bma-card-label {
+  background: #b84a4a;
+}
+
+.bma-card-warning {
+  border-color: #d8c18d;
+}
+
+.bma-card-warning .bma-card-label {
+  background: #b7a37a;
+}
+
+.bma-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 22px;
+  padding-bottom: 6px;
+}
+
+.bma-table {
+  width: 100%;
+  min-width: 850px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  table-layout: fixed;
+}
+
+.bma-table th,
+.bma-table td {
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #8b5a2b;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.bma-table th {
+  background: #444444;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bma-table td {
+  background: #f28c28;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.bma-table td:first-child {
+  background: #c7772d;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.bma-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.bma-info-box {
+  padding: 22px 18px;
+  border: 2px solid #e2d8c4;
+  border-radius: 18px;
+  background: #fffdf9;
+  box-sizing: border-box;
+}
+
+.bma-info-box strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #444444;
+  font-size: 18px;
+}
+
+.bma-info-box span {
+  display: block;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .bma-compare-grid,
+  .bma-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bma-table {
+    min-width: 850px;
+  }
+}

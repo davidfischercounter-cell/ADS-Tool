@@ -11,6 +11,7 @@ import Abstandsflaechen from "./pages/Abstandsflaechen.jsx";
 
 import BrandschutzBaustoffklassen from "./pages/BrandschutzBaustoffklassen.jsx";
 import BrandschutzKlassifizierung from "./pages/BrandschutzKlassifizierung.jsx";
+import BrandschutzBMABWA from "./pages/BrandschutzBMABWA.jsx";
 
 import Home from "./pages/Home.jsx";
 import Revit from "./pages/Revit.jsx";
@@ -46,6 +47,7 @@ function App() {
             path="/brandschutz/klassifizierung"
             element={<BrandschutzKlassifizierung />}
           />
+          <Route path="/brandschutz/bmabwa" element={<BrandschutzBMABWA />} />
 
           <Route path="/revit" element={<Revit />} />
           <Route path="/clouds" element={<Clouds />} />
