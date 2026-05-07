@@ -34,6 +34,7 @@ import BauvorlagenDarstellung from "./pages/BauvorlagenDarstellung.jsx";
 
 import GuidePage from "./pages/GuidePage.jsx";
 import SearchResults from "./pages/SearchResults.jsx";
+import BrandschutzBrandwand from "./pages/BrandschutzBrandwand.jsx";
 
 function App() {
   return (
@@ -48,6 +49,10 @@ function App() {
             element={<BrandschutzKlassifizierung />}
           />
           <Route path="/brandschutz/bmabwa" element={<BrandschutzBMABWA />} />
+          <Route
+            path="/brandschutz/brandwand"
+            element={<BrandschutzBrandwand />}
+          />
 
           <Route path="/revit" element={<Revit />} />
           <Route path="/clouds" element={<Clouds />} />
