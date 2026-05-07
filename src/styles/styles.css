@@ -801,3 +801,147 @@ body {
     min-width: 980px;
   }
 }
+
+/* =========================
+   BRANDSCHUTZ KLASSIFIZIERUNG
+========================= */
+
+.classification-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.classification-card {
+  padding: 22px 16px;
+  border: 2px solid #e2d8c4;
+  border-radius: 18px;
+  background: #fffdf9;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.classification-card strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 42px;
+  color: #b7a37a;
+  line-height: 1;
+}
+
+.classification-card span {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #444444;
+}
+
+.classification-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.classification-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 22px;
+  padding-bottom: 6px;
+}
+
+.classification-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  table-layout: fixed;
+}
+
+.classification-table th,
+.classification-table td {
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #8b5a2b;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+.classification-table th {
+  background: #444444;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.classification-table td {
+  background: #f28c28;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.classification-table td:first-child {
+  background: #c7772d;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.example-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.example-box {
+  padding: 22px 18px;
+  border: 2px solid #b7a37a;
+  border-radius: 18px;
+  background: #fffdf9;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.example-box strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 34px;
+  color: #444444;
+}
+
+.example-box span {
+  display: block;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .classification-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .example-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .classification-grid,
+  .example-row {
+    grid-template-columns: 1fr;
+  }
+
+  .classification-card strong {
+    font-size: 36px;
+  }
+
+  .example-box strong {
+    font-size: 30px;
+  }
+}

@@ -10,6 +10,7 @@ import BBQReport from "./pages/BBQReport.jsx";
 import Abstandsflaechen from "./pages/Abstandsflaechen.jsx";
 
 import BrandschutzBaustoffklassen from "./pages/BrandschutzBaustoffklassen.jsx";
+import BrandschutzKlassifizierung from "./pages/BrandschutzKlassifizierung.jsx";
 
 import Home from "./pages/Home.jsx";
 import Revit from "./pages/Revit.jsx";
@@ -41,6 +42,10 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
+          <Route
+            path="/brandschutz/klassifizierung"
+            element={<BrandschutzKlassifizierung />}
+          />
 
           <Route path="/revit" element={<Revit />} />
           <Route path="/clouds" element={<Clouds />} />
